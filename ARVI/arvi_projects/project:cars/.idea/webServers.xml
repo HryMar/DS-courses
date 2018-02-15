@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ssh://ubuntu@vpn.g3d.org.ua:15034/usr/bin/python3.5" name="ssh://ubuntu@vpn.g3d.org.ua:15034/usr/bin/python3.5">
+        <fileTransfer host="vpn.g3d.org.ua" port="15034" privateKey="$USER_HOME$/Downloads/13.pem" accessType="SFTP" keyPair="true">
+          <option name="port" value="15034" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

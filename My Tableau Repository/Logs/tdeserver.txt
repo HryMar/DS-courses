@@ -1,0 +1,1462 @@
+2017-08-27 13:29:16.665 (0x7fffa99383c0): -----------------------------------------------------------------------------
+2017-08-27 13:29:16.665 (0x7fffa99383c0): Initializing fault reporting
+2017-08-27 13:29:16.666 (0x7fffa99383c0): Fault reporting log pathname: /Users/Markos/Documents/My Tableau Repository/Logs/tdeserver64-error.log
+2017-08-27 13:29:16.671 (0x7fffa99383c0): -----------------------------------------------------------------------------
+2017-08-27 13:29:16.671 (0x7fffa99383c0): argv[0]="/Applications/Tableau Desktop 10.3.app/Contents/MacOS/tdeserver64"
+2017-08-27 13:29:16.671 (0x7fffa99383c0): argv[1]="--callback"
+2017-08-27 13:29:16.671 (0x7fffa99383c0): argv[2]="tab.tcp://[::1]:52240"
+2017-08-27 13:29:16.671 (0x7fffa99383c0): argv[3]="--listen"
+2017-08-27 13:29:16.671 (0x7fffa99383c0): argv[4]="tab.tcp://:auto"
+2017-08-27 13:29:16.671 (0x7fffa99383c0): argv[5]="--log"
+2017-08-27 13:29:16.671 (0x7fffa99383c0): argv[6]="/Users/Markos/Documents/My Tableau Repository/Logs/tdeserver.txt"
+2017-08-27 13:29:16.671 (0x7fffa99383c0): argv[7]="--desktop"
+2017-08-27 13:29:16.671 (0x7fffa99383c0): pid=43445
+2017-08-27 13:29:16.672 (0x7fffa99383c0): Machine Configuration
+2017-08-27 13:29:16.672 (0x7fffa99383c0):   Max Descriptors: 10240
+2017-08-27 13:29:16.672 (0x7fffa99383c0): Vectorization Support
+2017-08-27 13:29:16.672 (0x7fffa99383c0):   Supports SSE:    Yes
+2017-08-27 13:29:16.672 (0x7fffa99383c0):   Supports SSE2:   Yes
+2017-08-27 13:29:16.672 (0x7fffa99383c0):   Supports SSE3:   Yes
+2017-08-27 13:29:16.672 (0x7fffa99383c0):   Supports SSE4.1: Yes
+2017-08-27 13:29:16.672 (0x7fffa99383c0):   Supports SSE4.2: Yes
+2017-08-27 13:29:16.672 (0x7fffa99383c0):   Supports AVX:    Yes
+2017-08-27 13:29:16.672 (0x7fffa99383c0):   Supports AVX2:   Yes
+2017-08-27 13:29:16.672 (0x7fffa99383c0): Adjusted Values
+2017-08-27 13:29:16.672 (0x7fffa99383c0):   Physical RAM:              17179869184
+2017-08-27 13:29:16.672 (0x7fffa99383c0):   CPUs available to process: 8
+2017-08-27 13:29:16.672 (0x7fffa99383c0):   worker-threads:            8
+2017-08-27 13:29:16.672 (0x7fffa99383c0):   max-concurrency:           4
+2017-08-27 13:29:16.672 (0x7fffa99383c0):   query-parallelism:         4
+2017-08-27 13:29:16.672 (0x7fffa99383c0):   min-query-parallelism:     2
+2017-08-27 13:29:16.672 (0x7fffa99383c0):   work-buffer-size:          64
+2017-08-27 13:29:16.672 (0x7fffa99383c0):   MemoryMapEntireFile:       1
+2017-08-27 13:29:16.672 (0x7fffa99383c0):   use-openfile-cache:        1
+2017-08-27 13:29:16.674 (0x7fffa99383c0): tdeserver: server listening for incoming connections at: tab.tcp://[::1]:52241
+2017-08-27 13:29:16.675 (0x7fffa99383c0): tdeserver: new connection, connection=::1:52241->::1:52243
+2017-08-27 13:29:16.676 (0x70000c248000): tdeserver: open session1, connection=::1:52241->::1:52243
+2017-08-27 13:29:16.677 (0x70000c248000): tdeserver: open session2, connection=::1:52241->::1:52243
+2017-08-27 13:29:16.678 (0x70000a230000): Session1: StatementOpen: stmt_guid=1
+2017-08-27 13:29:16.679 (0x70000a633000): Session1: StatementPrepare: stmt_guid=1
+2017-08-27 13:29:16.679 (0x70000a633000): (create database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/#TableauTemp_1w0bm5e0v3sswd16yg6bl1lkg5dz.tde")
+2017-08-27 13:29:16.865 (0x70000a633000): Session1: StatementPrepare: OK stmt_guid=1
+2017-08-27 13:29:16.865 (0x70000aa36000): Session1: StatementExecute: stmt_guid=1
+2017-08-27 13:29:16.865 (0x70000aa36000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:16.865 (0x70000aa36000): Session1: StatementExecute: OK, Elapsed time:0.186s, Compilation time:0.185s, Execution time:0.000s
+2017-08-27 13:29:16.866 (0x70000ae39000): Session1: StatementClose: stmt_guid=1
+2017-08-27 13:29:16.866 (0x70000b23c000): Session1: QueryExecute:
+2017-08-27 13:29:16.866 (0x70000b23c000): (database null)
+2017-08-27 13:29:16.866 (0x70000b23c000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:16.867 (0x70000b23c000): Session1: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:29:16.867 (0x70000c248000): tdeserver: close session1, connection=::1:52241->::1:52243
+2017-08-27 13:29:16.867 (0x70000b63f000): Session2: QueryExecute:
+2017-08-27 13:29:16.867 (0x70000b63f000): (database null)
+2017-08-27 13:29:16.867 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:16.867 (0x70000b63f000): Session2: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:29:16.867 (0x70000c248000): tdeserver: close session2, connection=::1:52241->::1:52243
+2017-08-27 13:29:16.869 (0x7fffa99383c0): tdeserver: new connection, connection=::1:52241->::1:52244
+2017-08-27 13:29:16.869 (0x70000ca4e000): tdeserver: open session3, connection=::1:52241->::1:52244
+2017-08-27 13:29:16.869 (0x70000ba42000): Session3: QueryExecute:
+2017-08-27 13:29:16.869 (0x70000ba42000): (database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/#TableauTemp_1w0bm5e0v3sswd16yg6bl1lkg5dz.tde")
+2017-08-27 13:29:16.869 (0x70000c248000): tdeserver: disconnected connection=::1:52241->::1:52243: IPC_SocketConnection::Read(len=16, connection=::1:52241->::1:52243): The connection was closed by the peer in IPC_Socket::Recv(len=16)
+2017-08-27 13:29:16.869 (0x70000c248000): tdeserver: closing connection=::1:52241->::1:52243
+2017-08-27 13:29:16.870 (0x70000ba42000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:16.870 (0x70000ba42000): Session3: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2017-08-27 13:29:16.870 (0x70000ca4e000): tdeserver: open session4, connection=::1:52241->::1:52244
+2017-08-27 13:29:16.871 (0x70000be45000): Session3: QueryExecute:
+2017-08-27 13:29:16.871 (0x70000be45000): (show schemas)
+2017-08-27 13:29:16.871 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:16.872 (0x70000be45000): Session3: QueryExecute: OK rowset_guid=1 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-08-27 13:29:16.872 (0x70000a230000): Session3: RowsetGetValues: rowset_guid=1
+2017-08-27 13:29:16.872 (0x70000a633000): Session3: RowsetGetValues: rowset_guid=1
+2017-08-27 13:29:16.873 (0x70000aa36000): Session3: RowsetClose: rowset_guid=1
+2017-08-27 13:29:16.873 (0x70000ae39000): Session3: StatementOpen: stmt_guid=2
+2017-08-27 13:29:16.873 (0x70000b23c000): Session3: StatementPrepare: stmt_guid=2
+2017-08-27 13:29:16.873 (0x70000b23c000): (create schema [TableauTemp])
+2017-08-27 13:29:16.873 (0x70000b23c000): Session3: StatementPrepare: OK stmt_guid=2
+2017-08-27 13:29:16.873 (0x70000b63f000): Session3: StatementExecute: stmt_guid=2
+2017-08-27 13:29:16.873 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:16.880 (0x70000b63f000): Session3: StatementExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-08-27 13:29:16.881 (0x70000ba42000): Session3: StatementClose: stmt_guid=2
+2017-08-27 13:29:17.779 (0x70000be45000): Session3: StatementOpen: stmt_guid=3
+2017-08-27 13:29:17.779 (0x70000a230000): Session3: StatementPrepare: stmt_guid=3
+2017-08-27 13:29:17.779 (0x70000a230000): (create table [TableauTemp].[Sheet1$])
+2017-08-27 13:29:17.779 (0x70000a230000): Session3: StatementPrepare: OK stmt_guid=3
+2017-08-27 13:29:17.780 (0x70000a633000): Session3: StatementExecute: stmt_guid=3
+2017-08-27 13:29:17.780 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:17.790 (0x70000a633000): Session3: StatementExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-08-27 13:29:17.790 (0x70000aa36000): Session3: StatementClose: stmt_guid=3
+2017-08-27 13:29:17.790 (0x70000ae39000): Session3: StatementOpen: stmt_guid=4
+2017-08-27 13:29:17.790 (0x70000b23c000): Session3: StatementPrepare: stmt_guid=4
+2017-08-27 13:29:17.790 (0x70000b23c000): (create column [TableauTemp].[Sheet1$].[DateTime] ( ( "builtin" "date" ) ( "factory" "builtin" ) ( "ordinal" "0" ) ) )
+2017-08-27 13:29:17.793 (0x70000b23c000): Session3: StatementPrepare: OK stmt_guid=4
+2017-08-27 13:29:17.793 (0x70000b63f000): Session3: StatementExecute: stmt_guid=4
+2017-08-27 13:29:17.793 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:17.806 (0x70000b63f000): Session3: StatementExecute: OK, Elapsed time:0.016s, Compilation time:0.002s, Execution time:0.013s
+2017-08-27 13:29:17.807 (0x70000ba42000): Session3: StatementClose: stmt_guid=4
+2017-08-27 13:29:17.807 (0x70000be45000): Session3: StatementOpen: stmt_guid=5
+2017-08-27 13:29:17.807 (0x70000a230000): Session3: StatementPrepare: stmt_guid=5
+2017-08-27 13:29:17.807 (0x70000a230000): (create column [TableauTemp].[Sheet1$].[Cashier] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "1" ) ) )
+2017-08-27 13:29:17.807 (0x70000a230000): Session3: StatementPrepare: OK stmt_guid=5
+2017-08-27 13:29:17.807 (0x70000a633000): Session3: StatementExecute: stmt_guid=5
+2017-08-27 13:29:17.807 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:17.813 (0x70000a633000): Session3: StatementExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.006s
+2017-08-27 13:29:17.814 (0x70000aa36000): Session3: StatementClose: stmt_guid=5
+2017-08-27 13:29:17.814 (0x70000ae39000): Session3: StatementOpen: stmt_guid=6
+2017-08-27 13:29:17.814 (0x70000b23c000): Session3: StatementPrepare: stmt_guid=6
+2017-08-27 13:29:17.814 (0x70000b23c000): (create column [TableauTemp].[Sheet1$].[Check] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "2" ) ) )
+2017-08-27 13:29:17.814 (0x70000b23c000): Session3: StatementPrepare: OK stmt_guid=6
+2017-08-27 13:29:17.815 (0x70000b63f000): Session3: StatementExecute: stmt_guid=6
+2017-08-27 13:29:17.815 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:17.821 (0x70000b63f000): Session3: StatementExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.006s
+2017-08-27 13:29:17.821 (0x70000ba42000): Session3: StatementClose: stmt_guid=6
+2017-08-27 13:29:17.821 (0x70000be45000): Session3: StatementOpen: stmt_guid=7
+2017-08-27 13:29:17.821 (0x70000a230000): Session3: StatementPrepare: stmt_guid=7
+2017-08-27 13:29:17.821 (0x70000a230000): (create column [TableauTemp].[Sheet1$].[Product] ( ( "collation" "en_US_CI" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "3" ) ( "scale" "1" ) ( "storagewidth" "8" ) ) )
+2017-08-27 13:29:17.821 (0x70000a230000): Session3: StatementPrepare: OK stmt_guid=7
+2017-08-27 13:29:17.822 (0x70000a633000): Session3: StatementExecute: stmt_guid=7
+2017-08-27 13:29:17.822 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:17.828 (0x70000a633000): Session3: StatementExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.006s
+2017-08-27 13:29:17.828 (0x70000aa36000): Session3: StatementClose: stmt_guid=7
+2017-08-27 13:29:17.828 (0x70000ae39000): Session3: StatementOpen: stmt_guid=8
+2017-08-27 13:29:17.828 (0x70000b23c000): Session3: StatementPrepare: stmt_guid=8
+2017-08-27 13:29:17.828 (0x70000b23c000): (create column [TableauTemp].[Sheet1$].[Quantity] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ) )
+2017-08-27 13:29:17.828 (0x70000b23c000): Session3: StatementPrepare: OK stmt_guid=8
+2017-08-27 13:29:17.829 (0x70000b63f000): Session3: StatementExecute: stmt_guid=8
+2017-08-27 13:29:17.829 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:17.835 (0x70000b63f000): Session3: StatementExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.006s
+2017-08-27 13:29:17.835 (0x70000ba42000): Session3: StatementClose: stmt_guid=8
+2017-08-27 13:29:17.836 (0x70000be45000): Session3: StatementOpen: stmt_guid=9
+2017-08-27 13:29:17.836 (0x70000a230000): Session3: StatementPrepare: stmt_guid=9
+2017-08-27 13:29:17.836 (0x70000a230000): (create column [TableauTemp].[Sheet1$].[Price] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ) )
+2017-08-27 13:29:17.836 (0x70000a230000): Session3: StatementPrepare: OK stmt_guid=9
+2017-08-27 13:29:17.836 (0x70000a633000): Session3: StatementExecute: stmt_guid=9
+2017-08-27 13:29:17.836 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:17.846 (0x70000a633000): Session3: StatementExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-08-27 13:29:17.846 (0x70000aa36000): Session3: StatementClose: stmt_guid=9
+2017-08-27 13:29:17.846 (0x70000ae39000): Session3: StatementOpen: stmt_guid=10
+2017-08-27 13:29:17.847 (0x70000b23c000): Session3: StatementPrepare: stmt_guid=10
+2017-08-27 13:29:17.847 (0x70000b23c000): (create column [TableauTemp].[Sheet1$].[Cost] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ) )
+2017-08-27 13:29:17.847 (0x70000b23c000): Session3: StatementPrepare: OK stmt_guid=10
+2017-08-27 13:29:17.847 (0x70000b63f000): Session3: StatementExecute: stmt_guid=10
+2017-08-27 13:29:17.847 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:17.855 (0x70000b63f000): Session3: StatementExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.008s
+2017-08-27 13:29:17.856 (0x70000ba42000): Session3: StatementClose: stmt_guid=10
+2017-08-27 13:29:17.864 (0x70000be45000): Session3: InsertOpen: table="Sheet1$" schema="TableauTemp"
+2017-08-27 13:29:17.864 (0x70000be45000):   column[0]="DateTime"
+2017-08-27 13:29:17.864 (0x70000be45000):   column[1]="Cashier"
+2017-08-27 13:29:17.864 (0x70000be45000):   column[2]="Check"
+2017-08-27 13:29:17.864 (0x70000be45000):   column[3]="Product"
+2017-08-27 13:29:17.864 (0x70000be45000):   column[4]="Quantity"
+2017-08-27 13:29:17.864 (0x70000be45000):   column[5]="Price"
+2017-08-27 13:29:17.864 (0x70000be45000):   column[6]="Cost"
+2017-08-27 13:29:17.864 (0x70000a230000): Session3: InsertGetColumnProperties:
+2017-08-27 13:29:17.865 (0x70000a633000): Session3: InsertGetColumnProperties:
+2017-08-27 13:29:17.865 (0x70000aa36000): Session3: InsertGetColumnProperties:
+2017-08-27 13:29:17.865 (0x70000ae39000): Session3: InsertGetColumnProperties:
+2017-08-27 13:29:17.865 (0x70000b23c000): Session3: InsertGetColumnProperties:
+2017-08-27 13:29:17.866 (0x70000b63f000): Session3: InsertGetColumnProperties:
+2017-08-27 13:29:17.866 (0x70000ba42000): Session3: InsertGetColumnProperties:
+2017-08-27 13:29:17.866 (0x70000be45000): Session3: InsertPutValues: total_calls=1 total_message_size=136
+2017-08-27 13:29:17.907 (0x70000a230000): Session3: InsertCommit: insert_guid=11 total_calls=1 total_message_size=136
+2017-08-27 13:29:17.907 (0x70000a230000): Session3: InsertCommit: OK
+2017-08-27 13:29:17.907 (0x70000a633000): Session3: InsertClose: insert_guid=11
+2017-08-27 13:29:17.907 (0x70000a633000): Session3: InsertClose: OK
+2017-08-27 13:29:17.910 (0x70000aa36000): Session3: StatementOpen: stmt_guid=12
+2017-08-27 13:29:17.910 (0x70000ae39000): Session3: StatementPrepare: stmt_guid=12
+2017-08-27 13:29:17.910 (0x70000ae39000): (restrict
+2017-08-27 13:29:17.910 (0x70000ae39000):   (top
+2017-08-27 13:29:17.910 (0x70000ae39000):     (project
+2017-08-27 13:29:17.910 (0x70000ae39000):       (table [TableauTemp].[Sheet1$])
+2017-08-27 13:29:17.910 (0x70000ae39000):       (
+2017-08-27 13:29:17.910 (0x70000ae39000):         ([Number of Records] 1)
+2017-08-27 13:29:17.910 (0x70000ae39000):         )
+2017-08-27 13:29:17.910 (0x70000ae39000):       )
+2017-08-27 13:29:17.910 (0x70000ae39000):     ()
+2017-08-27 13:29:17.910 (0x70000ae39000):     1000)
+2017-08-27 13:29:17.910 (0x70000ae39000):   ([Cashier] [Check] [Cost] [DateTime] [Number of Records] [Price] [Product] [Quantity])
+2017-08-27 13:29:17.910 (0x70000ae39000):   )
+2017-08-27 13:29:17.910 (0x70000ae39000): 
+2017-08-27 13:29:17.915 (0x70000ae39000): Compiling query with DOP=4
+2017-08-27 13:29:17.916 (0x70000ae39000): Session3: StatementPrepare: OK stmt_guid=12
+2017-08-27 13:29:17.916 (0x70000b23c000): Session3: StatementExecute: stmt_guid=12
+2017-08-27 13:29:17.916 (0x70000b23c000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:17.917 (0x70000b23c000): Session3: StatementExecute: OK stmt_guid=12 rowset_guid=13 n_columns=8, Elapsed time:0.006s, Compilation time:0.005s, Execution time:0.001s
+2017-08-27 13:29:17.917 (0x70000b63f000): Session3: StatementClose: stmt_guid=12
+2017-08-27 13:29:17.918 (0x70000ba42000): Session3: RowsetGetValues: rowset_guid=13
+2017-08-27 13:29:17.918 (0x70000be45000): Session3: RowsetGetValues: rowset_guid=13
+2017-08-27 13:29:17.919 (0x70000a230000): Session3: RowsetClose: rowset_guid=13
+2017-08-27 13:29:44.652 (0x70000a633000): Session3: StatementOpen: stmt_guid=14
+2017-08-27 13:29:44.652 (0x70000aa36000): Session3: StatementPrepare: stmt_guid=14
+2017-08-27 13:29:44.652 (0x70000aa36000): (drop table [TableauTemp].[Sheet1$] cascade)
+2017-08-27 13:29:44.652 (0x70000aa36000): Session3: StatementPrepare: OK stmt_guid=14
+2017-08-27 13:29:44.652 (0x70000ae39000): Session3: StatementExecute: stmt_guid=14
+2017-08-27 13:29:44.652 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:44.666 (0x70000ae39000): Session3: StatementExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.014s
+2017-08-27 13:29:44.666 (0x70000b23c000): Session3: StatementClose: stmt_guid=14
+2017-08-27 13:29:44.667 (0x70000b63f000): Session3: StatementOpen: stmt_guid=15
+2017-08-27 13:29:44.667 (0x70000ba42000): Session3: StatementPrepare: stmt_guid=15
+2017-08-27 13:29:44.667 (0x70000ba42000): (create table [TableauTemp].[Sheet1$])
+2017-08-27 13:29:44.667 (0x70000ba42000): Session3: StatementPrepare: OK stmt_guid=15
+2017-08-27 13:29:44.667 (0x70000be45000): Session3: StatementExecute: stmt_guid=15
+2017-08-27 13:29:44.668 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:44.673 (0x70000be45000): Session3: StatementExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.006s
+2017-08-27 13:29:44.673 (0x70000a230000): Session3: StatementClose: stmt_guid=15
+2017-08-27 13:29:44.674 (0x70000a633000): Session3: StatementOpen: stmt_guid=16
+2017-08-27 13:29:44.674 (0x70000aa36000): Session3: StatementPrepare: stmt_guid=16
+2017-08-27 13:29:44.674 (0x70000aa36000): (create column [TableauTemp].[Sheet1$].[DateTime] ( ( "builtin" "datetime" ) ( "factory" "builtin" ) ( "ordinal" "0" ) ) )
+2017-08-27 13:29:44.674 (0x70000aa36000): Session3: StatementPrepare: OK stmt_guid=16
+2017-08-27 13:29:44.674 (0x70000ae39000): Session3: StatementExecute: stmt_guid=16
+2017-08-27 13:29:44.674 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:44.684 (0x70000ae39000): Session3: StatementExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-08-27 13:29:44.684 (0x70000b23c000): Session3: StatementClose: stmt_guid=16
+2017-08-27 13:29:44.684 (0x70000b63f000): Session3: StatementOpen: stmt_guid=17
+2017-08-27 13:29:44.684 (0x70000ba42000): Session3: StatementPrepare: stmt_guid=17
+2017-08-27 13:29:44.684 (0x70000ba42000): (create column [TableauTemp].[Sheet1$].[Cashier] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "1" ) ) )
+2017-08-27 13:29:44.685 (0x70000ba42000): Session3: StatementPrepare: OK stmt_guid=17
+2017-08-27 13:29:44.685 (0x70000be45000): Session3: StatementExecute: stmt_guid=17
+2017-08-27 13:29:44.685 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:44.692 (0x70000be45000): Session3: StatementExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-08-27 13:29:44.692 (0x70000a230000): Session3: StatementClose: stmt_guid=17
+2017-08-27 13:29:44.692 (0x70000a633000): Session3: StatementOpen: stmt_guid=18
+2017-08-27 13:29:44.692 (0x70000aa36000): Session3: StatementPrepare: stmt_guid=18
+2017-08-27 13:29:44.692 (0x70000aa36000): (create column [TableauTemp].[Sheet1$].[Check] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "2" ) ) )
+2017-08-27 13:29:44.692 (0x70000aa36000): Session3: StatementPrepare: OK stmt_guid=18
+2017-08-27 13:29:44.693 (0x70000ae39000): Session3: StatementExecute: stmt_guid=18
+2017-08-27 13:29:44.693 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:44.700 (0x70000ae39000): Session3: StatementExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-08-27 13:29:44.700 (0x70000b23c000): Session3: StatementClose: stmt_guid=18
+2017-08-27 13:29:44.700 (0x70000b63f000): Session3: StatementOpen: stmt_guid=19
+2017-08-27 13:29:44.700 (0x70000ba42000): Session3: StatementPrepare: stmt_guid=19
+2017-08-27 13:29:44.700 (0x70000ba42000): (create column [TableauTemp].[Sheet1$].[Product] ( ( "collation" "en_US_CI" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "3" ) ( "scale" "1" ) ( "storagewidth" "8" ) ) )
+2017-08-27 13:29:44.700 (0x70000ba42000): Session3: StatementPrepare: OK stmt_guid=19
+2017-08-27 13:29:44.700 (0x70000be45000): Session3: StatementExecute: stmt_guid=19
+2017-08-27 13:29:44.701 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:44.708 (0x70000be45000): Session3: StatementExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.007s
+2017-08-27 13:29:44.708 (0x70000a230000): Session3: StatementClose: stmt_guid=19
+2017-08-27 13:29:44.709 (0x70000a633000): Session3: StatementOpen: stmt_guid=20
+2017-08-27 13:29:44.709 (0x70000aa36000): Session3: StatementPrepare: stmt_guid=20
+2017-08-27 13:29:44.709 (0x70000aa36000): (create column [TableauTemp].[Sheet1$].[Quantity] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ) )
+2017-08-27 13:29:44.709 (0x70000aa36000): Session3: StatementPrepare: OK stmt_guid=20
+2017-08-27 13:29:44.709 (0x70000ae39000): Session3: StatementExecute: stmt_guid=20
+2017-08-27 13:29:44.709 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:44.718 (0x70000ae39000): Session3: StatementExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2017-08-27 13:29:44.718 (0x70000b23c000): Session3: StatementClose: stmt_guid=20
+2017-08-27 13:29:44.718 (0x70000b63f000): Session3: StatementOpen: stmt_guid=21
+2017-08-27 13:29:44.718 (0x70000ba42000): Session3: StatementPrepare: stmt_guid=21
+2017-08-27 13:29:44.718 (0x70000ba42000): (create column [TableauTemp].[Sheet1$].[Price] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ) )
+2017-08-27 13:29:44.719 (0x70000ba42000): Session3: StatementPrepare: OK stmt_guid=21
+2017-08-27 13:29:44.719 (0x70000be45000): Session3: StatementExecute: stmt_guid=21
+2017-08-27 13:29:44.719 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:44.726 (0x70000be45000): Session3: StatementExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-08-27 13:29:44.726 (0x70000a230000): Session3: StatementClose: stmt_guid=21
+2017-08-27 13:29:44.726 (0x70000a633000): Session3: StatementOpen: stmt_guid=22
+2017-08-27 13:29:44.727 (0x70000aa36000): Session3: StatementPrepare: stmt_guid=22
+2017-08-27 13:29:44.727 (0x70000aa36000): (create column [TableauTemp].[Sheet1$].[Cost] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ) )
+2017-08-27 13:29:44.727 (0x70000aa36000): Session3: StatementPrepare: OK stmt_guid=22
+2017-08-27 13:29:44.727 (0x70000ae39000): Session3: StatementExecute: stmt_guid=22
+2017-08-27 13:29:44.727 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:44.737 (0x70000ae39000): Session3: StatementExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.009s
+2017-08-27 13:29:44.737 (0x70000b23c000): Session3: StatementClose: stmt_guid=22
+2017-08-27 13:29:44.743 (0x70000b63f000): Session3: InsertOpen: table="Sheet1$" schema="TableauTemp"
+2017-08-27 13:29:44.743 (0x70000b63f000):   column[0]="DateTime"
+2017-08-27 13:29:44.743 (0x70000b63f000):   column[1]="Cashier"
+2017-08-27 13:29:44.743 (0x70000b63f000):   column[2]="Check"
+2017-08-27 13:29:44.743 (0x70000b63f000):   column[3]="Product"
+2017-08-27 13:29:44.743 (0x70000b63f000):   column[4]="Quantity"
+2017-08-27 13:29:44.743 (0x70000b63f000):   column[5]="Price"
+2017-08-27 13:29:44.743 (0x70000b63f000):   column[6]="Cost"
+2017-08-27 13:29:44.744 (0x70000ba42000): Session3: InsertGetColumnProperties:
+2017-08-27 13:29:44.744 (0x70000be45000): Session3: InsertGetColumnProperties:
+2017-08-27 13:29:44.744 (0x70000a230000): Session3: InsertGetColumnProperties:
+2017-08-27 13:29:44.745 (0x70000a633000): Session3: InsertGetColumnProperties:
+2017-08-27 13:29:44.745 (0x70000aa36000): Session3: InsertGetColumnProperties:
+2017-08-27 13:29:44.745 (0x70000ae39000): Session3: InsertGetColumnProperties:
+2017-08-27 13:29:44.745 (0x70000b23c000): Session3: InsertGetColumnProperties:
+2017-08-27 13:29:44.746 (0x70000b63f000): Session3: InsertPutValues: total_calls=1 total_message_size=136
+2017-08-27 13:29:44.792 (0x70000ba42000): Session3: InsertCommit: insert_guid=23 total_calls=1 total_message_size=136
+2017-08-27 13:29:44.792 (0x70000ba42000): Session3: InsertCommit: OK
+2017-08-27 13:29:44.793 (0x70000be45000): Session3: InsertClose: insert_guid=23
+2017-08-27 13:29:44.793 (0x70000be45000): Session3: InsertClose: OK
+2017-08-27 13:29:44.794 (0x70000a230000): Session3: StatementOpen: stmt_guid=24
+2017-08-27 13:29:44.795 (0x70000a633000): Session3: StatementPrepare: stmt_guid=24
+2017-08-27 13:29:44.795 (0x70000a633000): (restrict
+2017-08-27 13:29:44.795 (0x70000a633000):   (top
+2017-08-27 13:29:44.795 (0x70000a633000):     (project
+2017-08-27 13:29:44.795 (0x70000a633000):       (table [TableauTemp].[Sheet1$])
+2017-08-27 13:29:44.795 (0x70000a633000):       (
+2017-08-27 13:29:44.795 (0x70000a633000):         ([Number of Records] 1)
+2017-08-27 13:29:44.795 (0x70000a633000):         )
+2017-08-27 13:29:44.795 (0x70000a633000):       )
+2017-08-27 13:29:44.795 (0x70000a633000):     ()
+2017-08-27 13:29:44.795 (0x70000a633000):     1000)
+2017-08-27 13:29:44.795 (0x70000a633000):   ([Cashier] [Check] [Cost] [DateTime] [Number of Records] [Price] [Product] [Quantity])
+2017-08-27 13:29:44.795 (0x70000a633000):   )
+2017-08-27 13:29:44.795 (0x70000a633000): 
+2017-08-27 13:29:44.796 (0x70000a633000): Compiling query with DOP=4
+2017-08-27 13:29:44.796 (0x70000a633000): Session3: StatementPrepare: OK stmt_guid=24
+2017-08-27 13:29:44.797 (0x70000aa36000): Session3: StatementExecute: stmt_guid=24
+2017-08-27 13:29:44.797 (0x70000aa36000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:29:44.797 (0x70000aa36000): Session3: StatementExecute: OK stmt_guid=24 rowset_guid=25 n_columns=8, Elapsed time:0.002s, Compilation time:0.002s, Execution time:0.001s
+2017-08-27 13:29:44.798 (0x70000ae39000): Session3: StatementClose: stmt_guid=24
+2017-08-27 13:29:44.798 (0x70000b23c000): Session3: RowsetGetValues: rowset_guid=25
+2017-08-27 13:29:44.798 (0x70000b63f000): Session3: RowsetGetValues: rowset_guid=25
+2017-08-27 13:29:44.800 (0x70000ba42000): Session3: RowsetClose: rowset_guid=25
+2017-08-27 13:31:16.307 (0x70000be45000): Session3: StatementOpen: stmt_guid=26
+2017-08-27 13:31:16.307 (0x70000a230000): Session3: StatementPrepare: stmt_guid=26
+2017-08-27 13:31:16.307 (0x70000a230000): (restrict
+2017-08-27 13:31:16.307 (0x70000a230000):   (top
+2017-08-27 13:31:16.307 (0x70000a230000):     (table [TableauTemp].[Sheet1$])
+2017-08-27 13:31:16.307 (0x70000a230000):     ()
+2017-08-27 13:31:16.307 (0x70000a230000):     10000)
+2017-08-27 13:31:16.307 (0x70000a230000):   ([Cashier] [Check] [Cost] [DateTime] [Price] [Product] [Quantity])
+2017-08-27 13:31:16.307 (0x70000a230000):   )
+2017-08-27 13:31:16.307 (0x70000a230000): 
+2017-08-27 13:31:16.308 (0x70000a230000): Compiling query with DOP=4
+2017-08-27 13:31:16.308 (0x70000a230000): Session3: StatementPrepare: OK stmt_guid=26
+2017-08-27 13:31:16.309 (0x70000a633000): Session3: StatementExecute: stmt_guid=26
+2017-08-27 13:31:16.309 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:16.309 (0x70000a633000): Session3: StatementExecute: OK stmt_guid=26 rowset_guid=27 n_columns=7, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2017-08-27 13:31:16.330 (0x70000aa36000): Session3: StatementClose: stmt_guid=26
+2017-08-27 13:31:16.332 (0x70000ae39000): Session3: RowsetGetValues: rowset_guid=27
+2017-08-27 13:31:16.332 (0x70000b23c000): Session3: RowsetGetValues: rowset_guid=27
+2017-08-27 13:31:16.333 (0x70000b63f000): Session3: RowsetClose: rowset_guid=27
+2017-08-27 13:31:45.126 (0x70000ca4e000): tdeserver: open session5, connection=::1:52241->::1:52244
+2017-08-27 13:31:45.126 (0x70000ba42000): Session5: QueryExecute:
+2017-08-27 13:31:45.126 (0x70000ba42000): (database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/TEMP_0tr79j61iywpd41g6dd1c0gatgay.tmp")
+2017-08-27 13:31:45.127 (0x70000ba42000): TDE error=10000: Path does not exist.
+2017-08-27 13:31:45.127 (0x70000ba42000): /var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/TEMP_0tr79j61iywpd41g6dd1c0gatgay.tmp
+2017-08-27 13:31:45.127 (0x70000ba42000): Session5: QueryExecute: FAILED, error=Path does not exist.
+2017-08-27 13:31:45.127 (0x70000ba42000): /var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/TEMP_0tr79j61iywpd41g6dd1c0gatgay.tmp, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:31:45.129 (0x70000be45000): Session5: QueryExecute:
+2017-08-27 13:31:45.129 (0x70000be45000): (database null)
+2017-08-27 13:31:45.129 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.129 (0x70000be45000): Session5: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:31:45.129 (0x70000ca4e000): tdeserver: close session5, connection=::1:52241->::1:52244
+2017-08-27 13:31:45.132 (0x70000ca4e000): tdeserver: open session6, connection=::1:52241->::1:52244
+2017-08-27 13:31:45.132 (0x70000a230000): Session6: QueryExecute:
+2017-08-27 13:31:45.132 (0x70000a230000): (database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/TEMP_0tr79j61iywpd41g6dd1c0gatgay.tmp")
+2017-08-27 13:31:45.132 (0x70000a230000): TDE error=10000: Path does not exist.
+2017-08-27 13:31:45.132 (0x70000a230000): /var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/TEMP_0tr79j61iywpd41g6dd1c0gatgay.tmp
+2017-08-27 13:31:45.132 (0x70000a230000): Session6: QueryExecute: FAILED, error=Path does not exist.
+2017-08-27 13:31:45.132 (0x70000a230000): /var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/TEMP_0tr79j61iywpd41g6dd1c0gatgay.tmp, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:31:45.133 (0x70000a633000): Session6: QueryExecute:
+2017-08-27 13:31:45.133 (0x70000a633000): (database null)
+2017-08-27 13:31:45.133 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.133 (0x70000a633000): Session6: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:31:45.133 (0x70000ca4e000): tdeserver: close session6, connection=::1:52241->::1:52244
+2017-08-27 13:31:45.134 (0x70000ca4e000): tdeserver: open session7, connection=::1:52241->::1:52244
+2017-08-27 13:31:45.134 (0x70000ca4e000): tdeserver: open session8, connection=::1:52241->::1:52244
+2017-08-27 13:31:45.135 (0x70000aa36000): Session7: StatementOpen: stmt_guid=1
+2017-08-27 13:31:45.135 (0x70000ae39000): Session7: StatementPrepare: stmt_guid=1
+2017-08-27 13:31:45.135 (0x70000ae39000): (create database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/TEMP_0tr79j61iywpd41g6dd1c0gatgay.tmp")
+2017-08-27 13:31:45.324 (0x70000ae39000): Session7: StatementPrepare: OK stmt_guid=1
+2017-08-27 13:31:45.324 (0x70000b23c000): Session7: StatementExecute: stmt_guid=1
+2017-08-27 13:31:45.324 (0x70000b23c000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.324 (0x70000b23c000): Session7: StatementExecute: OK, Elapsed time:0.189s, Compilation time:0.189s, Execution time:0.000s
+2017-08-27 13:31:45.324 (0x70000b63f000): Session7: StatementClose: stmt_guid=1
+2017-08-27 13:31:45.325 (0x70000ba42000): Session7: QueryExecute:
+2017-08-27 13:31:45.325 (0x70000ba42000): (database null)
+2017-08-27 13:31:45.325 (0x70000ba42000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.325 (0x70000ba42000): Session7: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:31:45.325 (0x70000ca4e000): tdeserver: close session7, connection=::1:52241->::1:52244
+2017-08-27 13:31:45.325 (0x70000be45000): Session8: QueryExecute:
+2017-08-27 13:31:45.325 (0x70000be45000): (database null)
+2017-08-27 13:31:45.325 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.325 (0x70000be45000): Session8: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:31:45.326 (0x70000ca4e000): tdeserver: close session8, connection=::1:52241->::1:52244
+2017-08-27 13:31:45.327 (0x70000ca4e000): tdeserver: open session9, connection=::1:52241->::1:52244
+2017-08-27 13:31:45.327 (0x70000a230000): Session9: QueryExecute:
+2017-08-27 13:31:45.327 (0x70000a230000): (database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/TEMP_0tr79j61iywpd41g6dd1c0gatgay.tmp")
+2017-08-27 13:31:45.327 (0x70000a230000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.328 (0x70000a230000): Session9: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2017-08-27 13:31:45.328 (0x70000ca4e000): tdeserver: open session10, connection=::1:52241->::1:52244
+2017-08-27 13:31:45.328 (0x70000a633000): Session9: QueryExecute:
+2017-08-27 13:31:45.328 (0x70000a633000): (show schemas)
+2017-08-27 13:31:45.328 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.329 (0x70000a633000): Session9: QueryExecute: OK rowset_guid=1 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-08-27 13:31:45.329 (0x70000aa36000): Session9: RowsetGetValues: rowset_guid=1
+2017-08-27 13:31:45.329 (0x70000ae39000): Session9: RowsetGetValues: rowset_guid=1
+2017-08-27 13:31:45.329 (0x70000b23c000): Session9: RowsetClose: rowset_guid=1
+2017-08-27 13:31:45.330 (0x70000b63f000): Session9: StatementOpen: stmt_guid=2
+2017-08-27 13:31:45.330 (0x70000ba42000): Session9: StatementPrepare: stmt_guid=2
+2017-08-27 13:31:45.330 (0x70000ba42000): (create schema [Extract])
+2017-08-27 13:31:45.330 (0x70000ba42000): Session9: StatementPrepare: OK stmt_guid=2
+2017-08-27 13:31:45.330 (0x70000be45000): Session9: StatementExecute: stmt_guid=2
+2017-08-27 13:31:45.330 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.337 (0x70000be45000): Session9: StatementExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-08-27 13:31:45.337 (0x70000a230000): Session9: StatementClose: stmt_guid=2
+2017-08-27 13:31:45.343 (0x70000a633000): Session3: StatementOpen: stmt_guid=28
+2017-08-27 13:31:45.344 (0x70000aa36000): Session3: StatementPrepare: stmt_guid=28
+2017-08-27 13:31:45.344 (0x70000aa36000): (restrict
+2017-08-27 13:31:45.344 (0x70000aa36000):   (top
+2017-08-27 13:31:45.344 (0x70000aa36000):     (project
+2017-08-27 13:31:45.344 (0x70000aa36000):       (table [TableauTemp].[Sheet1$])
+2017-08-27 13:31:45.344 (0x70000aa36000):       (
+2017-08-27 13:31:45.344 (0x70000aa36000):         ([Number of Records] 1)
+2017-08-27 13:31:45.344 (0x70000aa36000):         )
+2017-08-27 13:31:45.344 (0x70000aa36000):       )
+2017-08-27 13:31:45.344 (0x70000aa36000):     ()
+2017-08-27 13:31:45.344 (0x70000aa36000):     1)
+2017-08-27 13:31:45.344 (0x70000aa36000):   ([Cashier] [Check] [Cost] [DateTime] [Number of Records] [Price] [Product] [Quantity])
+2017-08-27 13:31:45.344 (0x70000aa36000):   )
+2017-08-27 13:31:45.344 (0x70000aa36000): 
+2017-08-27 13:31:45.345 (0x70000aa36000): Compiling query with DOP=4
+2017-08-27 13:31:45.345 (0x70000aa36000): Session3: StatementPrepare: OK stmt_guid=28
+2017-08-27 13:31:45.346 (0x70000ae39000): Session3: StatementExecute: stmt_guid=28
+2017-08-27 13:31:45.346 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.346 (0x70000ae39000): Session3: StatementExecute: OK stmt_guid=28 rowset_guid=29 n_columns=8, Elapsed time:0.002s, Compilation time:0.002s, Execution time:0.000s
+2017-08-27 13:31:45.346 (0x70000b23c000): Session3: StatementClose: stmt_guid=28
+2017-08-27 13:31:45.347 (0x70000b63f000): Session3: RowsetGetValues: rowset_guid=29
+2017-08-27 13:31:45.347 (0x70000ba42000): Session3: RowsetGetValues: rowset_guid=29
+2017-08-27 13:31:45.348 (0x70000be45000): Session3: RowsetClose: rowset_guid=29
+2017-08-27 13:31:45.349 (0x70000a230000): Session9: QueryExecute:
+2017-08-27 13:31:45.349 (0x70000a230000): (show tables [Extract])
+2017-08-27 13:31:45.349 (0x70000a230000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.350 (0x70000a230000): Session9: QueryExecute: OK rowset_guid=3 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-08-27 13:31:45.351 (0x70000a633000): Session9: RowsetGetValues: rowset_guid=3
+2017-08-27 13:31:45.351 (0x70000aa36000): Session9: RowsetClose: rowset_guid=3
+2017-08-27 13:31:45.352 (0x70000ae39000): Session9: StatementOpen: stmt_guid=4
+2017-08-27 13:31:45.352 (0x70000b23c000): Session9: StatementPrepare: stmt_guid=4
+2017-08-27 13:31:45.352 (0x70000b23c000): (create table [Extract].[Extract])
+2017-08-27 13:31:45.352 (0x70000b23c000): Session9: StatementPrepare: OK stmt_guid=4
+2017-08-27 13:31:45.352 (0x70000b63f000): Session9: StatementExecute: stmt_guid=4
+2017-08-27 13:31:45.352 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.360 (0x70000b63f000): Session9: StatementExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2017-08-27 13:31:45.361 (0x70000ba42000): Session9: StatementClose: stmt_guid=4
+2017-08-27 13:31:45.361 (0x70000be45000): Session9: StatementOpen: stmt_guid=5
+2017-08-27 13:31:45.361 (0x70000a230000): Session9: StatementPrepare: stmt_guid=5
+2017-08-27 13:31:45.361 (0x70000a230000): (create column [Extract].[Extract].[Cashier] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "family-name" "Sheet1" ) ( "ordinal" "0" ) ) )
+2017-08-27 13:31:45.363 (0x70000a230000): Session9: StatementPrepare: OK stmt_guid=5
+2017-08-27 13:31:45.363 (0x70000a633000): Session9: StatementExecute: stmt_guid=5
+2017-08-27 13:31:45.363 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.373 (0x70000a633000): Session9: StatementExecute: OK, Elapsed time:0.012s, Compilation time:0.002s, Execution time:0.010s
+2017-08-27 13:31:45.373 (0x70000aa36000): Session9: StatementClose: stmt_guid=5
+2017-08-27 13:31:45.374 (0x70000ae39000): Session9: StatementOpen: stmt_guid=6
+2017-08-27 13:31:45.374 (0x70000b23c000): Session9: StatementPrepare: stmt_guid=6
+2017-08-27 13:31:45.374 (0x70000b23c000): (create column [Extract].[Extract].[Check] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "family-name" "Sheet1" ) ( "ordinal" "1" ) ) )
+2017-08-27 13:31:45.374 (0x70000b23c000): Session9: StatementPrepare: OK stmt_guid=6
+2017-08-27 13:31:45.374 (0x70000b63f000): Session9: StatementExecute: stmt_guid=6
+2017-08-27 13:31:45.374 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.380 (0x70000b63f000): Session9: StatementExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.005s
+2017-08-27 13:31:45.380 (0x70000ba42000): Session9: StatementClose: stmt_guid=6
+2017-08-27 13:31:45.380 (0x70000be45000): Session9: StatementOpen: stmt_guid=7
+2017-08-27 13:31:45.380 (0x70000a230000): Session9: StatementPrepare: stmt_guid=7
+2017-08-27 13:31:45.380 (0x70000a230000): (create column [Extract].[Extract].[Cost] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "family-name" "Sheet1" ) ( "ordinal" "2" ) ) )
+2017-08-27 13:31:45.380 (0x70000a230000): Session9: StatementPrepare: OK stmt_guid=7
+2017-08-27 13:31:45.381 (0x70000a633000): Session9: StatementExecute: stmt_guid=7
+2017-08-27 13:31:45.381 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.386 (0x70000a633000): Session9: StatementExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.005s
+2017-08-27 13:31:45.386 (0x70000aa36000): Session9: StatementClose: stmt_guid=7
+2017-08-27 13:31:45.387 (0x70000ae39000): Session9: StatementOpen: stmt_guid=8
+2017-08-27 13:31:45.387 (0x70000b23c000): Session9: StatementPrepare: stmt_guid=8
+2017-08-27 13:31:45.387 (0x70000b23c000): (create column [Extract].[Extract].[DateTime] ( ( "builtin" "datetime" ) ( "factory" "builtin" ) ( "family-name" "Sheet1" ) ( "ordinal" "3" ) ) )
+2017-08-27 13:31:45.387 (0x70000b23c000): Session9: StatementPrepare: OK stmt_guid=8
+2017-08-27 13:31:45.387 (0x70000b63f000): Session9: StatementExecute: stmt_guid=8
+2017-08-27 13:31:45.387 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.393 (0x70000b63f000): Session9: StatementExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.006s
+2017-08-27 13:31:45.393 (0x70000ba42000): Session9: StatementClose: stmt_guid=8
+2017-08-27 13:31:45.394 (0x70000be45000): Session9: StatementOpen: stmt_guid=9
+2017-08-27 13:31:45.394 (0x70000a230000): Session9: StatementPrepare: stmt_guid=9
+2017-08-27 13:31:45.394 (0x70000a230000): (create column [Extract].[Extract].[Number of Records] ( ( "builtin" "tiny" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ) )
+2017-08-27 13:31:45.394 (0x70000a230000): Session9: StatementPrepare: OK stmt_guid=9
+2017-08-27 13:31:45.394 (0x70000a633000): Session9: StatementExecute: stmt_guid=9
+2017-08-27 13:31:45.394 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.401 (0x70000a633000): Session9: StatementExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.006s
+2017-08-27 13:31:45.401 (0x70000aa36000): Session9: StatementClose: stmt_guid=9
+2017-08-27 13:31:45.401 (0x70000ae39000): Session9: StatementOpen: stmt_guid=10
+2017-08-27 13:31:45.401 (0x70000b23c000): Session9: StatementPrepare: stmt_guid=10
+2017-08-27 13:31:45.401 (0x70000b23c000): (create column [Extract].[Extract].[Price] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "family-name" "Sheet1" ) ( "ordinal" "5" ) ) )
+2017-08-27 13:31:45.401 (0x70000b23c000): Session9: StatementPrepare: OK stmt_guid=10
+2017-08-27 13:31:45.402 (0x70000b63f000): Session9: StatementExecute: stmt_guid=10
+2017-08-27 13:31:45.402 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.414 (0x70000b63f000): Session9: StatementExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-08-27 13:31:45.414 (0x70000ba42000): Session9: StatementClose: stmt_guid=10
+2017-08-27 13:31:45.414 (0x70000be45000): Session9: StatementOpen: stmt_guid=11
+2017-08-27 13:31:45.415 (0x70000a230000): Session9: StatementPrepare: stmt_guid=11
+2017-08-27 13:31:45.415 (0x70000a230000): (create column [Extract].[Extract].[Product] ( ( "collation" "en_US_CI" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "family-name" "Sheet1" ) ( "ordinal" "6" ) ( "scale" "1" ) ( "storagewidth" "8" ) ) )
+2017-08-27 13:31:45.415 (0x70000a230000): Session9: StatementPrepare: OK stmt_guid=11
+2017-08-27 13:31:45.415 (0x70000a633000): Session9: StatementExecute: stmt_guid=11
+2017-08-27 13:31:45.415 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.422 (0x70000a633000): Session9: StatementExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.006s
+2017-08-27 13:31:45.422 (0x70000aa36000): Session9: StatementClose: stmt_guid=11
+2017-08-27 13:31:45.422 (0x70000ae39000): Session9: StatementOpen: stmt_guid=12
+2017-08-27 13:31:45.422 (0x70000b23c000): Session9: StatementPrepare: stmt_guid=12
+2017-08-27 13:31:45.422 (0x70000b23c000): (create column [Extract].[Extract].[Quantity] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "family-name" "Sheet1" ) ( "ordinal" "7" ) ) )
+2017-08-27 13:31:45.422 (0x70000b23c000): Session9: StatementPrepare: OK stmt_guid=12
+2017-08-27 13:31:45.423 (0x70000b63f000): Session9: StatementExecute: stmt_guid=12
+2017-08-27 13:31:45.423 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.428 (0x70000b63f000): Session9: StatementExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.006s
+2017-08-27 13:31:45.428 (0x70000ba42000): Session9: StatementClose: stmt_guid=12
+2017-08-27 13:31:45.429 (0x70000be45000): Session9: InsertOpen: table="Extract" schema="Extract"
+2017-08-27 13:31:45.429 (0x70000be45000):   column[0]="Cashier"
+2017-08-27 13:31:45.429 (0x70000be45000):   column[1]="Check"
+2017-08-27 13:31:45.429 (0x70000be45000):   column[2]="Cost"
+2017-08-27 13:31:45.429 (0x70000be45000):   column[3]="DateTime"
+2017-08-27 13:31:45.429 (0x70000be45000):   column[4]="Number of Records"
+2017-08-27 13:31:45.429 (0x70000be45000):   column[5]="Price"
+2017-08-27 13:31:45.429 (0x70000be45000):   column[6]="Product"
+2017-08-27 13:31:45.429 (0x70000be45000):   column[7]="Quantity"
+2017-08-27 13:31:45.429 (0x70000a230000): Session9: InsertGetColumnProperties:
+2017-08-27 13:31:45.430 (0x70000a633000): Session9: InsertGetColumnProperties:
+2017-08-27 13:31:45.430 (0x70000aa36000): Session9: InsertGetColumnProperties:
+2017-08-27 13:31:45.430 (0x70000ae39000): Session9: InsertGetColumnProperties:
+2017-08-27 13:31:45.430 (0x70000b23c000): Session9: InsertGetColumnProperties:
+2017-08-27 13:31:45.430 (0x70000b63f000): Session9: InsertGetColumnProperties:
+2017-08-27 13:31:45.430 (0x70000ba42000): Session9: InsertGetColumnProperties:
+2017-08-27 13:31:45.430 (0x70000be45000): Session9: InsertGetColumnProperties:
+2017-08-27 13:31:45.431 (0x70000a230000): Session9: InsertPutValues: total_calls=1 total_message_size=152
+2017-08-27 13:31:45.468 (0x70000a633000): Session9: InsertCommit: insert_guid=13 total_calls=1 total_message_size=152
+2017-08-27 13:31:45.468 (0x70000a633000): Session9: InsertCommit: OK
+2017-08-27 13:31:45.469 (0x70000aa36000): Session9: StatementOpen: stmt_guid=14
+2017-08-27 13:31:45.469 (0x70000ae39000): Session9: StatementPrepare: stmt_guid=14
+2017-08-27 13:31:45.469 (0x70000ae39000): (alter column [Extract].[Extract].[Cashier] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ( "encoding" "encoding" ) ) )
+2017-08-27 13:31:45.469 (0x70000ae39000): Session9: StatementPrepare: OK stmt_guid=14
+2017-08-27 13:31:45.469 (0x70000b23c000): Session9: StatementExecute: stmt_guid=14
+2017-08-27 13:31:45.469 (0x70000b23c000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.478 (0x70000b23c000): Session9: StatementExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2017-08-27 13:31:45.478 (0x70000b63f000): Session9: StatementClose: stmt_guid=14
+2017-08-27 13:31:45.478 (0x70000ba42000): Session9: StatementOpen: stmt_guid=15
+2017-08-27 13:31:45.478 (0x70000be45000): Session9: StatementPrepare: stmt_guid=15
+2017-08-27 13:31:45.478 (0x70000be45000): (alter column [Extract].[Extract].[Check] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ( "encoding" "encoding" ) ) )
+2017-08-27 13:31:45.479 (0x70000be45000): Session9: StatementPrepare: OK stmt_guid=15
+2017-08-27 13:31:45.479 (0x70000a230000): Session9: StatementExecute: stmt_guid=15
+2017-08-27 13:31:45.479 (0x70000a230000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.484 (0x70000a230000): Session9: StatementExecute: OK, Elapsed time:0.005s, Compilation time:0.000s, Execution time:0.005s
+2017-08-27 13:31:45.484 (0x70000a633000): Session9: StatementClose: stmt_guid=15
+2017-08-27 13:31:45.485 (0x70000aa36000): Session9: StatementOpen: stmt_guid=16
+2017-08-27 13:31:45.485 (0x70000ae39000): Session9: StatementPrepare: stmt_guid=16
+2017-08-27 13:31:45.485 (0x70000ae39000): (alter column [Extract].[Extract].[Cost] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ( "encoding" "encoding" ) ) )
+2017-08-27 13:31:45.485 (0x70000ae39000): Session9: StatementPrepare: OK stmt_guid=16
+2017-08-27 13:31:45.486 (0x70000b23c000): Session9: StatementExecute: stmt_guid=16
+2017-08-27 13:31:45.486 (0x70000b23c000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.492 (0x70000b23c000): Session9: StatementExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-08-27 13:31:45.492 (0x70000b63f000): Session9: StatementClose: stmt_guid=16
+2017-08-27 13:31:45.493 (0x70000ba42000): Session9: StatementOpen: stmt_guid=17
+2017-08-27 13:31:45.493 (0x70000be45000): Session9: StatementPrepare: stmt_guid=17
+2017-08-27 13:31:45.493 (0x70000be45000): (alter column [Extract].[Extract].[DateTime] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ( "encoding" "encoding" ) ) )
+2017-08-27 13:31:45.493 (0x70000be45000): Session9: StatementPrepare: OK stmt_guid=17
+2017-08-27 13:31:45.493 (0x70000a230000): Session9: StatementExecute: stmt_guid=17
+2017-08-27 13:31:45.493 (0x70000a230000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.498 (0x70000a230000): Session9: StatementExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.005s
+2017-08-27 13:31:45.499 (0x70000a633000): Session9: StatementClose: stmt_guid=17
+2017-08-27 13:31:45.499 (0x70000aa36000): Session9: StatementOpen: stmt_guid=18
+2017-08-27 13:31:45.499 (0x70000ae39000): Session9: StatementPrepare: stmt_guid=18
+2017-08-27 13:31:45.499 (0x70000ae39000): (alter column [Extract].[Extract].[Number of Records] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ( "encoding" "encoding" ) ) )
+2017-08-27 13:31:45.499 (0x70000ae39000): Session9: StatementPrepare: OK stmt_guid=18
+2017-08-27 13:31:45.500 (0x70000b23c000): Session9: StatementExecute: stmt_guid=18
+2017-08-27 13:31:45.500 (0x70000b23c000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.504 (0x70000b23c000): Session9: StatementExecute: OK, Elapsed time:0.005s, Compilation time:0.000s, Execution time:0.005s
+2017-08-27 13:31:45.505 (0x70000b63f000): Session9: StatementClose: stmt_guid=18
+2017-08-27 13:31:45.505 (0x70000ba42000): Session9: StatementOpen: stmt_guid=19
+2017-08-27 13:31:45.505 (0x70000be45000): Session9: StatementPrepare: stmt_guid=19
+2017-08-27 13:31:45.505 (0x70000be45000): (alter column [Extract].[Extract].[Price] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ( "encoding" "encoding" ) ) )
+2017-08-27 13:31:45.505 (0x70000be45000): Session9: StatementPrepare: OK stmt_guid=19
+2017-08-27 13:31:45.506 (0x70000a230000): Session9: StatementExecute: stmt_guid=19
+2017-08-27 13:31:45.506 (0x70000a230000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.511 (0x70000a230000): Session9: StatementExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.006s
+2017-08-27 13:31:45.511 (0x70000a633000): Session9: StatementClose: stmt_guid=19
+2017-08-27 13:31:45.512 (0x70000aa36000): Session9: StatementOpen: stmt_guid=20
+2017-08-27 13:31:45.512 (0x70000ae39000): Session9: StatementPrepare: stmt_guid=20
+2017-08-27 13:31:45.512 (0x70000ae39000): (alter column [Extract].[Extract].[Product] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ( "encoding" "encoding" ) ) )
+2017-08-27 13:31:45.512 (0x70000ae39000): Session9: StatementPrepare: OK stmt_guid=20
+2017-08-27 13:31:45.512 (0x70000b23c000): Session9: StatementExecute: stmt_guid=20
+2017-08-27 13:31:45.512 (0x70000b23c000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.517 (0x70000b23c000): Session9: StatementExecute: OK, Elapsed time:0.004s, Compilation time:0.000s, Execution time:0.004s
+2017-08-27 13:31:45.517 (0x70000b63f000): Session9: StatementClose: stmt_guid=20
+2017-08-27 13:31:45.517 (0x70000ba42000): Session9: StatementOpen: stmt_guid=21
+2017-08-27 13:31:45.518 (0x70000be45000): Session9: StatementPrepare: stmt_guid=21
+2017-08-27 13:31:45.518 (0x70000be45000): (alter column [Extract].[Extract].[Quantity] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ( "encoding" "encoding" ) ) )
+2017-08-27 13:31:45.518 (0x70000be45000): Session9: StatementPrepare: OK stmt_guid=21
+2017-08-27 13:31:45.518 (0x70000a230000): Session9: StatementExecute: stmt_guid=21
+2017-08-27 13:31:45.518 (0x70000a230000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.523 (0x70000a230000): Session9: StatementExecute: OK, Elapsed time:0.005s, Compilation time:0.000s, Execution time:0.005s
+2017-08-27 13:31:45.523 (0x70000a633000): Session9: StatementClose: stmt_guid=21
+2017-08-27 13:31:45.524 (0x70000aa36000): Session9: InsertClose: insert_guid=13
+2017-08-27 13:31:45.524 (0x70000aa36000): Session9: InsertClose: OK
+2017-08-27 13:31:45.524 (0x70000ae39000): Session9: StatementOpen: stmt_guid=22
+2017-08-27 13:31:45.525 (0x70000b23c000): Session9: StatementPrepare: stmt_guid=22
+2017-08-27 13:31:45.525 (0x70000b23c000): (describe [Extract].[Extract])
+2017-08-27 13:31:45.525 (0x70000b23c000): Session9: StatementPrepare: OK stmt_guid=22
+2017-08-27 13:31:45.525 (0x70000b63f000): Session9: StatementExecute: stmt_guid=22
+2017-08-27 13:31:45.525 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.525 (0x70000b63f000): Session9: StatementExecute: OK stmt_guid=22 rowset_guid=23 n_columns=8, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:31:45.525 (0x70000ba42000): Session9: StatementClose: stmt_guid=22
+2017-08-27 13:31:45.526 (0x70000be45000): Session9: RowsetGetProperties: rowset_guid=23
+2017-08-27 13:31:45.526 (0x70000a230000): Session9: RowsetClose: rowset_guid=23
+2017-08-27 13:31:45.528 (0x70000a633000): Session9: StatementOpen: stmt_guid=24
+2017-08-27 13:31:45.528 (0x70000aa36000): Session9: StatementPrepare: stmt_guid=24
+2017-08-27 13:31:45.528 (0x70000aa36000): (create table [Extract].[$TableauMetadata])
+2017-08-27 13:31:45.528 (0x70000aa36000): Session9: StatementPrepare: OK stmt_guid=24
+2017-08-27 13:31:45.528 (0x70000ae39000): Session9: StatementExecute: stmt_guid=24
+2017-08-27 13:31:45.528 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.531 (0x70000ae39000): Session9: StatementExecute: OK, Elapsed time:0.003s, Compilation time:0.000s, Execution time:0.003s
+2017-08-27 13:31:45.532 (0x70000b23c000): Session9: StatementClose: stmt_guid=24
+2017-08-27 13:31:45.532 (0x70000b63f000): Session9: StatementOpen: stmt_guid=25
+2017-08-27 13:31:45.532 (0x70000ba42000): Session9: StatementPrepare: stmt_guid=25
+2017-08-27 13:31:45.532 (0x70000ba42000): (create column [Extract].[$TableauMetadata].[key] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "precision" "32" ) ( "scale" "1" ) ( "storagewidth" "8" ) ) )
+2017-08-27 13:31:45.533 (0x70000ba42000): Session9: StatementPrepare: OK stmt_guid=25
+2017-08-27 13:31:45.533 (0x70000be45000): Session9: StatementExecute: stmt_guid=25
+2017-08-27 13:31:45.533 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.540 (0x70000be45000): Session9: StatementExecute: OK, Elapsed time:0.008s, Compilation time:0.001s, Execution time:0.007s
+2017-08-27 13:31:45.540 (0x70000a230000): Session9: StatementClose: stmt_guid=25
+2017-08-27 13:31:45.541 (0x70000a633000): Session9: StatementOpen: stmt_guid=26
+2017-08-27 13:31:45.541 (0x70000aa36000): Session9: StatementPrepare: stmt_guid=26
+2017-08-27 13:31:45.541 (0x70000aa36000): (create column [Extract].[$TableauMetadata].[value] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "1" ) ( "storagewidth" "8" ) ) )
+2017-08-27 13:31:45.541 (0x70000aa36000): Session9: StatementPrepare: OK stmt_guid=26
+2017-08-27 13:31:45.541 (0x70000ae39000): Session9: StatementExecute: stmt_guid=26
+2017-08-27 13:31:45.541 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.548 (0x70000ae39000): Session9: StatementExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-08-27 13:31:45.549 (0x70000b23c000): Session9: StatementClose: stmt_guid=26
+2017-08-27 13:31:45.549 (0x70000b63f000): Session9: InsertOpen: table="$TableauMetadata" schema="Extract"
+2017-08-27 13:31:45.549 (0x70000b63f000):   column[0]="key"
+2017-08-27 13:31:45.549 (0x70000b63f000):   column[1]="value"
+2017-08-27 13:31:45.550 (0x70000ba42000): Session9: InsertGetColumnProperties:
+2017-08-27 13:31:45.550 (0x70000be45000): Session9: InsertGetColumnProperties:
+2017-08-27 13:31:45.550 (0x70000a230000): Session9: InsertPutValues: total_calls=1 total_message_size=1174
+2017-08-27 13:31:45.560 (0x70000a633000): Session9: InsertCommit: insert_guid=27 total_calls=1 total_message_size=1174
+2017-08-27 13:31:45.560 (0x70000a633000): Session9: InsertCommit: OK
+2017-08-27 13:31:45.561 (0x70000aa36000): Session9: StatementOpen: stmt_guid=28
+2017-08-27 13:31:45.561 (0x70000ae39000): Session9: StatementPrepare: stmt_guid=28
+2017-08-27 13:31:45.561 (0x70000ae39000): (alter column [Extract].[$TableauMetadata].[key] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ( "encoding" "encoding" ) ) )
+2017-08-27 13:31:45.561 (0x70000ae39000): Session9: StatementPrepare: OK stmt_guid=28
+2017-08-27 13:31:45.561 (0x70000b23c000): Session9: StatementExecute: stmt_guid=28
+2017-08-27 13:31:45.561 (0x70000b23c000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.567 (0x70000b23c000): Session9: StatementExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.006s
+2017-08-27 13:31:45.567 (0x70000b63f000): Session9: StatementClose: stmt_guid=28
+2017-08-27 13:31:45.568 (0x70000ba42000): Session9: StatementOpen: stmt_guid=29
+2017-08-27 13:31:45.568 (0x70000be45000): Session9: StatementPrepare: stmt_guid=29
+2017-08-27 13:31:45.568 (0x70000be45000): (alter column [Extract].[$TableauMetadata].[value] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ( "encoding" "encoding" ) ) )
+2017-08-27 13:31:45.568 (0x70000be45000): Session9: StatementPrepare: OK stmt_guid=29
+2017-08-27 13:31:45.569 (0x70000a230000): Session9: StatementExecute: stmt_guid=29
+2017-08-27 13:31:45.569 (0x70000a230000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.573 (0x70000a230000): Session9: StatementExecute: OK, Elapsed time:0.005s, Compilation time:0.000s, Execution time:0.005s
+2017-08-27 13:31:45.574 (0x70000a633000): Session9: StatementClose: stmt_guid=29
+2017-08-27 13:31:45.574 (0x70000aa36000): Session9: InsertClose: insert_guid=27
+2017-08-27 13:31:45.574 (0x70000aa36000): Session9: InsertClose: OK
+2017-08-27 13:31:45.574 (0x70000ae39000): Session9: StatementOpen: stmt_guid=30
+2017-08-27 13:31:45.575 (0x70000b23c000): Session9: StatementPrepare: stmt_guid=30
+2017-08-27 13:31:45.575 (0x70000b23c000): (describe [Extract].[$TableauMetadata])
+2017-08-27 13:31:45.575 (0x70000b23c000): Session9: StatementPrepare: OK stmt_guid=30
+2017-08-27 13:31:45.575 (0x70000b63f000): Session9: StatementExecute: stmt_guid=30
+2017-08-27 13:31:45.575 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.575 (0x70000b63f000): Session9: StatementExecute: OK stmt_guid=30 rowset_guid=31 n_columns=2, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:31:45.575 (0x70000ba42000): Session9: StatementClose: stmt_guid=30
+2017-08-27 13:31:45.576 (0x70000be45000): Session9: RowsetGetProperties: rowset_guid=31
+2017-08-27 13:31:45.576 (0x70000a230000): Session9: RowsetClose: rowset_guid=31
+2017-08-27 13:31:45.576 (0x70000a633000): Session9: StatementOpen: stmt_guid=32
+2017-08-27 13:31:45.576 (0x70000aa36000): Session9: StatementPrepare: stmt_guid=32
+2017-08-27 13:31:45.576 (0x70000aa36000): (package)
+2017-08-27 13:31:45.577 (0x70000aa36000): Session9: StatementPrepare: OK stmt_guid=32
+2017-08-27 13:31:45.577 (0x70000ae39000): Session9: StatementExecute: stmt_guid=32
+2017-08-27 13:31:45.577 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.577 (0x70000ae39000): PackageDatabase: in-place package of "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/TEMP_0tr79j61iywpd41g6dd1c0gatgay.tmp"
+2017-08-27 13:31:45.587 (0x70000ae39000): PackageDatabase: finished
+2017-08-27 13:31:45.587 (0x70000ae39000): Session9: StatementExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-08-27 13:31:45.587 (0x70000b23c000): Session9: StatementClose: stmt_guid=32
+2017-08-27 13:31:45.588 (0x70000b63f000): Session9: QueryExecute:
+2017-08-27 13:31:45.588 (0x70000b63f000): (database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/TEMP_0tr79j61iywpd41g6dd1c0gatgay.tmp")
+2017-08-27 13:31:45.588 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.588 (0x70000b63f000): Session9: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2017-08-27 13:31:45.589 (0x70000ba42000): Session9: StatementOpen: stmt_guid=33
+2017-08-27 13:31:45.589 (0x70000be45000): Session9: StatementPrepare: stmt_guid=33
+2017-08-27 13:31:45.589 (0x70000be45000): (describe [Extract].[Extract])
+2017-08-27 13:31:45.595 (0x70000be45000): Session9: StatementPrepare: OK stmt_guid=33
+2017-08-27 13:31:45.595 (0x70000a230000): Session9: StatementExecute: stmt_guid=33
+2017-08-27 13:31:45.595 (0x70000a230000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.596 (0x70000a230000): Session9: StatementExecute: OK stmt_guid=33 rowset_guid=34 n_columns=8, Elapsed time:0.006s, Compilation time:0.006s, Execution time:0.000s
+2017-08-27 13:31:45.596 (0x70000a633000): Session9: StatementClose: stmt_guid=33
+2017-08-27 13:31:45.597 (0x70000aa36000): Session9: RowsetGetProperties: rowset_guid=34
+2017-08-27 13:31:45.597 (0x70000ae39000): Session9: RowsetClose: rowset_guid=34
+2017-08-27 13:31:45.604 (0x70000b23c000): Session9: StatementOpen: stmt_guid=35
+2017-08-27 13:31:45.604 (0x70000b63f000): Session9: StatementPrepare: stmt_guid=35
+2017-08-27 13:31:45.604 (0x70000b63f000): (restrict
+2017-08-27 13:31:45.604 (0x70000b63f000):   (aggregate
+2017-08-27 13:31:45.604 (0x70000b63f000):     (table [Extract].[Extract])
+2017-08-27 13:31:45.604 (0x70000b63f000):     ()
+2017-08-27 13:31:45.604 (0x70000b63f000):     (
+2017-08-27 13:31:45.604 (0x70000b63f000):       ([cnt:TEMP(one)(290714814)(0):qk]
+2017-08-27 13:31:45.604 (0x70000b63f000):         (count 1)
+2017-08-27 13:31:45.604 (0x70000b63f000):         )
+2017-08-27 13:31:45.604 (0x70000b63f000):       )
+2017-08-27 13:31:45.604 (0x70000b63f000):     )
+2017-08-27 13:31:45.604 (0x70000b63f000):   ([cnt:TEMP(one)(290714814)(0):qk])
+2017-08-27 13:31:45.604 (0x70000b63f000):   )
+2017-08-27 13:31:45.604 (0x70000b63f000): 
+2017-08-27 13:31:45.610 (0x70000b63f000): Compiling query with DOP=4
+2017-08-27 13:31:45.610 (0x70000b63f000): Session9: StatementPrepare: OK stmt_guid=35
+2017-08-27 13:31:45.610 (0x70000ba42000): Session9: StatementExecute: stmt_guid=35
+2017-08-27 13:31:45.610 (0x70000ba42000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.611 (0x70000ba42000): Session9: StatementExecute: OK stmt_guid=35 rowset_guid=36 n_columns=1, Elapsed time:0.007s, Compilation time:0.006s, Execution time:0.000s
+2017-08-27 13:31:45.611 (0x70000be45000): Session9: StatementClose: stmt_guid=35
+2017-08-27 13:31:45.611 (0x70000a230000): Session9: RowsetGetValues: rowset_guid=36
+2017-08-27 13:31:45.612 (0x70000a633000): Session9: RowsetGetValues: rowset_guid=36
+2017-08-27 13:31:45.612 (0x70000aa36000): Session9: RowsetClose: rowset_guid=36
+2017-08-27 13:31:45.618 (0x70000ae39000): Session9: StatementOpen: stmt_guid=37
+2017-08-27 13:31:45.619 (0x70000b23c000): Session9: StatementPrepare: stmt_guid=37
+2017-08-27 13:31:45.619 (0x70000b23c000): (describe [Extract].[Extract])
+2017-08-27 13:31:45.619 (0x70000b23c000): Session9: StatementPrepare: OK stmt_guid=37
+2017-08-27 13:31:45.619 (0x70000b63f000): Session9: StatementExecute: stmt_guid=37
+2017-08-27 13:31:45.619 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.619 (0x70000b63f000): Session9: StatementExecute: OK stmt_guid=37 rowset_guid=38 n_columns=8, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:31:45.620 (0x70000ba42000): Session9: StatementClose: stmt_guid=37
+2017-08-27 13:31:45.620 (0x70000be45000): Session9: RowsetGetProperties: rowset_guid=38
+2017-08-27 13:31:45.621 (0x70000a230000): Session9: RowsetClose: rowset_guid=38
+2017-08-27 13:31:45.630 (0x70000a633000): Session9: StatementOpen: stmt_guid=39
+2017-08-27 13:31:45.630 (0x70000aa36000): Session9: StatementPrepare: stmt_guid=39
+2017-08-27 13:31:45.630 (0x70000aa36000): (restrict
+2017-08-27 13:31:45.630 (0x70000aa36000):   (top
+2017-08-27 13:31:45.630 (0x70000aa36000):     (table [Extract].[Extract])
+2017-08-27 13:31:45.630 (0x70000aa36000):     ()
+2017-08-27 13:31:45.630 (0x70000aa36000):     1)
+2017-08-27 13:31:45.630 (0x70000aa36000):   ([Cashier] [Check] [Cost] [DateTime] [Number of Records] [Price] [Product] [Quantity])
+2017-08-27 13:31:45.630 (0x70000aa36000):   )
+2017-08-27 13:31:45.630 (0x70000aa36000): 
+2017-08-27 13:31:45.631 (0x70000aa36000): Compiling query with DOP=4
+2017-08-27 13:31:45.631 (0x70000aa36000): Session9: StatementPrepare: OK stmt_guid=39
+2017-08-27 13:31:45.632 (0x70000ae39000): Session9: StatementExecute: stmt_guid=39
+2017-08-27 13:31:45.632 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:31:45.632 (0x70000ae39000): Session9: StatementExecute: OK stmt_guid=39 rowset_guid=40 n_columns=8, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2017-08-27 13:31:45.633 (0x70000b23c000): Session9: StatementClose: stmt_guid=39
+2017-08-27 13:31:45.633 (0x70000b63f000): Session9: RowsetGetValues: rowset_guid=40
+2017-08-27 13:31:45.634 (0x70000ba42000): Session9: RowsetGetValues: rowset_guid=40
+2017-08-27 13:31:45.634 (0x70000be45000): Session9: RowsetClose: rowset_guid=40
+2017-08-27 13:32:01.893 (0x70000a230000): Session3: StatementOpen: stmt_guid=30
+2017-08-27 13:32:01.894 (0x70000a633000): Session3: StatementPrepare: stmt_guid=30
+2017-08-27 13:32:01.894 (0x70000a633000): (package "/Users/Markos/Library/Caches/com.tableau.caching/TemporaryExtracts/49b4c11eb52a7e8503a8e9451bc4b852da157eb9d744e338ebb64a15ae9364e4.ttde")
+2017-08-27 13:32:01.894 (0x70000a633000): Session3: StatementPrepare: OK stmt_guid=30
+2017-08-27 13:32:01.894 (0x70000aa36000): Session3: StatementExecute: stmt_guid=30
+2017-08-27 13:32:01.894 (0x70000aa36000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:01.894 (0x70000aa36000): PackageDatabase: package database to "/Users/Markos/Library/Caches/com.tableau.caching/TemporaryExtracts/49b4c11eb52a7e8503a8e9451bc4b852da157eb9d744e338ebb64a15ae9364e4.ttde"
+2017-08-27 13:32:01.902 (0x70000aa36000): PackageDatabase: finished
+2017-08-27 13:32:01.902 (0x70000aa36000): Session3: StatementExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2017-08-27 13:32:01.903 (0x70000ae39000): Session3: StatementClose: stmt_guid=30
+2017-08-27 13:32:01.903 (0x70000b23c000): Session3: QueryExecute:
+2017-08-27 13:32:01.903 (0x70000b23c000): (database null)
+2017-08-27 13:32:01.907 (0x70000b23c000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:01.907 (0x70000b23c000): Session3: QueryExecute: OK, Elapsed time:0.004s, Compilation time:0.000s, Execution time:0.004s
+2017-08-27 13:32:01.907 (0x70000ca4e000): tdeserver: close session3, connection=::1:52241->::1:52244
+2017-08-27 13:32:01.908 (0x70000ca4e000): tdeserver: open session11, connection=::1:52241->::1:52244
+2017-08-27 13:32:01.908 (0x70000ca4e000): tdeserver: open session12, connection=::1:52241->::1:52244
+2017-08-27 13:32:01.909 (0x70000b63f000): Session11: StatementOpen: stmt_guid=1
+2017-08-27 13:32:01.909 (0x70000ba42000): Session11: StatementPrepare: stmt_guid=1
+2017-08-27 13:32:01.909 (0x70000ba42000): (drop database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/#TableauTemp_1w0bm5e0v3sswd16yg6bl1lkg5dz.tde" cascade ifexists)
+2017-08-27 13:32:01.909 (0x70000ba42000): Session11: StatementPrepare: OK stmt_guid=1
+2017-08-27 13:32:01.909 (0x70000be45000): Session11: StatementExecute: stmt_guid=1
+2017-08-27 13:32:01.909 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:01.910 (0x70000be45000): Session11: StatementExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:01.910 (0x70000a230000): Session11: StatementClose: stmt_guid=1
+2017-08-27 13:32:01.910 (0x70000a633000): Session11: QueryExecute:
+2017-08-27 13:32:01.910 (0x70000a633000): (database null)
+2017-08-27 13:32:01.910 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:01.910 (0x70000a633000): Session11: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:01.910 (0x70000ca4e000): tdeserver: close session11, connection=::1:52241->::1:52244
+2017-08-27 13:32:01.910 (0x70000aa36000): Session12: QueryExecute:
+2017-08-27 13:32:01.910 (0x70000aa36000): (database null)
+2017-08-27 13:32:01.911 (0x70000aa36000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:01.911 (0x70000aa36000): Session12: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:01.911 (0x70000ca4e000): tdeserver: close session12, connection=::1:52241->::1:52244
+2017-08-27 13:32:01.911 (0x70000ae39000): Session4: QueryExecute:
+2017-08-27 13:32:01.911 (0x70000ae39000): (database null)
+2017-08-27 13:32:01.911 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:01.911 (0x70000ae39000): Session4: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:01.911 (0x70000ca4e000): tdeserver: close session4, connection=::1:52241->::1:52244
+2017-08-27 13:32:01.916 (0x70000ca4e000): tdeserver: open session13, connection=::1:52241->::1:52244
+2017-08-27 13:32:01.916 (0x70000ca4e000): tdeserver: open session14, connection=::1:52241->::1:52244
+2017-08-27 13:32:01.917 (0x70000b23c000): Session13: StatementOpen: stmt_guid=1
+2017-08-27 13:32:01.917 (0x70000b63f000): Session13: StatementPrepare: stmt_guid=1
+2017-08-27 13:32:01.917 (0x70000b63f000): (create database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/#TableauTemp_07oo57d1aj5fce12mnssp1wrsk86.tde")
+2017-08-27 13:32:02.104 (0x70000b63f000): Session13: StatementPrepare: OK stmt_guid=1
+2017-08-27 13:32:02.104 (0x70000ba42000): Session13: StatementExecute: stmt_guid=1
+2017-08-27 13:32:02.104 (0x70000ba42000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.104 (0x70000ba42000): Session13: StatementExecute: OK, Elapsed time:0.187s, Compilation time:0.187s, Execution time:0.000s
+2017-08-27 13:32:02.105 (0x70000be45000): Session13: StatementClose: stmt_guid=1
+2017-08-27 13:32:02.105 (0x70000a230000): Session13: QueryExecute:
+2017-08-27 13:32:02.105 (0x70000a230000): (database null)
+2017-08-27 13:32:02.105 (0x70000a230000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.105 (0x70000a230000): Session13: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:02.105 (0x70000ca4e000): tdeserver: close session13, connection=::1:52241->::1:52244
+2017-08-27 13:32:02.105 (0x70000a633000): Session14: QueryExecute:
+2017-08-27 13:32:02.105 (0x70000a633000): (database null)
+2017-08-27 13:32:02.105 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.105 (0x70000a633000): Session14: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:02.106 (0x70000ca4e000): tdeserver: close session14, connection=::1:52241->::1:52244
+2017-08-27 13:32:02.106 (0x70000ca4e000): tdeserver: open session15, connection=::1:52241->::1:52244
+2017-08-27 13:32:02.106 (0x70000aa36000): Session15: QueryExecute:
+2017-08-27 13:32:02.106 (0x70000aa36000): (database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/#TableauTemp_07oo57d1aj5fce12mnssp1wrsk86.tde")
+2017-08-27 13:32:02.107 (0x70000aa36000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.107 (0x70000aa36000): Session15: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2017-08-27 13:32:02.107 (0x70000ca4e000): tdeserver: open session16, connection=::1:52241->::1:52244
+2017-08-27 13:32:02.108 (0x70000ae39000): Session15: QueryExecute:
+2017-08-27 13:32:02.108 (0x70000ae39000): (show schemas)
+2017-08-27 13:32:02.108 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.108 (0x70000ae39000): Session15: QueryExecute: OK rowset_guid=1 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-08-27 13:32:02.109 (0x70000b23c000): Session15: RowsetGetValues: rowset_guid=1
+2017-08-27 13:32:02.109 (0x70000b63f000): Session15: RowsetGetValues: rowset_guid=1
+2017-08-27 13:32:02.109 (0x70000ba42000): Session15: RowsetClose: rowset_guid=1
+2017-08-27 13:32:02.109 (0x70000be45000): Session15: StatementOpen: stmt_guid=2
+2017-08-27 13:32:02.109 (0x70000a230000): Session15: StatementPrepare: stmt_guid=2
+2017-08-27 13:32:02.109 (0x70000a230000): (create schema [TableauTemp])
+2017-08-27 13:32:02.109 (0x70000a230000): Session15: StatementPrepare: OK stmt_guid=2
+2017-08-27 13:32:02.109 (0x70000a633000): Session15: StatementExecute: stmt_guid=2
+2017-08-27 13:32:02.109 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.138 (0x70000a633000): Session15: StatementExecute: OK, Elapsed time:0.029s, Compilation time:0.000s, Execution time:0.029s
+2017-08-27 13:32:02.139 (0x70000aa36000): Session15: StatementClose: stmt_guid=2
+2017-08-27 13:32:02.610 (0x70000ae39000): Session15: StatementOpen: stmt_guid=3
+2017-08-27 13:32:02.610 (0x70000b23c000): Session15: StatementPrepare: stmt_guid=3
+2017-08-27 13:32:02.610 (0x70000b23c000): (create table [TableauTemp].[Sheet1$])
+2017-08-27 13:32:02.610 (0x70000b23c000): Session15: StatementPrepare: OK stmt_guid=3
+2017-08-27 13:32:02.610 (0x70000b63f000): Session15: StatementExecute: stmt_guid=3
+2017-08-27 13:32:02.610 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.620 (0x70000b63f000): Session15: StatementExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-08-27 13:32:02.620 (0x70000ba42000): Session15: StatementClose: stmt_guid=3
+2017-08-27 13:32:02.621 (0x70000be45000): Session15: StatementOpen: stmt_guid=4
+2017-08-27 13:32:02.621 (0x70000a230000): Session15: StatementPrepare: stmt_guid=4
+2017-08-27 13:32:02.621 (0x70000a230000): (create column [TableauTemp].[Sheet1$].[Check] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "0" ) ) )
+2017-08-27 13:32:02.623 (0x70000a230000): Session15: StatementPrepare: OK stmt_guid=4
+2017-08-27 13:32:02.623 (0x70000a633000): Session15: StatementExecute: stmt_guid=4
+2017-08-27 13:32:02.623 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.634 (0x70000a633000): Session15: StatementExecute: OK, Elapsed time:0.013s, Compilation time:0.002s, Execution time:0.011s
+2017-08-27 13:32:02.635 (0x70000aa36000): Session15: StatementClose: stmt_guid=4
+2017-08-27 13:32:02.635 (0x70000ae39000): Session15: StatementOpen: stmt_guid=5
+2017-08-27 13:32:02.635 (0x70000b23c000): Session15: StatementPrepare: stmt_guid=5
+2017-08-27 13:32:02.635 (0x70000b23c000): (create column [TableauTemp].[Sheet1$].[DateTime] ( ( "builtin" "datetime" ) ( "factory" "builtin" ) ( "ordinal" "1" ) ) )
+2017-08-27 13:32:02.636 (0x70000b23c000): Session15: StatementPrepare: OK stmt_guid=5
+2017-08-27 13:32:02.636 (0x70000b63f000): Session15: StatementExecute: stmt_guid=5
+2017-08-27 13:32:02.636 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.643 (0x70000b63f000): Session15: StatementExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-08-27 13:32:02.643 (0x70000ba42000): Session15: StatementClose: stmt_guid=5
+2017-08-27 13:32:02.643 (0x70000be45000): Session15: StatementOpen: stmt_guid=6
+2017-08-27 13:32:02.644 (0x70000a230000): Session15: StatementPrepare: stmt_guid=6
+2017-08-27 13:32:02.644 (0x70000a230000): (create column [TableauTemp].[Sheet1$].[Cashier] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "2" ) ) )
+2017-08-27 13:32:02.644 (0x70000a230000): Session15: StatementPrepare: OK stmt_guid=6
+2017-08-27 13:32:02.644 (0x70000a633000): Session15: StatementExecute: stmt_guid=6
+2017-08-27 13:32:02.644 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.650 (0x70000a633000): Session15: StatementExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.006s
+2017-08-27 13:32:02.651 (0x70000aa36000): Session15: StatementClose: stmt_guid=6
+2017-08-27 13:32:02.651 (0x70000ae39000): Session15: StatementOpen: stmt_guid=7
+2017-08-27 13:32:02.651 (0x70000b23c000): Session15: StatementPrepare: stmt_guid=7
+2017-08-27 13:32:02.651 (0x70000b23c000): (create column [TableauTemp].[Sheet1$].[Product] ( ( "collation" "en_US_CI" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "3" ) ( "scale" "1" ) ( "storagewidth" "8" ) ) )
+2017-08-27 13:32:02.651 (0x70000b23c000): Session15: StatementPrepare: OK stmt_guid=7
+2017-08-27 13:32:02.651 (0x70000b63f000): Session15: StatementExecute: stmt_guid=7
+2017-08-27 13:32:02.651 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.659 (0x70000b63f000): Session15: StatementExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-08-27 13:32:02.659 (0x70000ba42000): Session15: StatementClose: stmt_guid=7
+2017-08-27 13:32:02.659 (0x70000be45000): Session15: StatementOpen: stmt_guid=8
+2017-08-27 13:32:02.659 (0x70000a230000): Session15: StatementPrepare: stmt_guid=8
+2017-08-27 13:32:02.659 (0x70000a230000): (create column [TableauTemp].[Sheet1$].[Quantity] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ) )
+2017-08-27 13:32:02.659 (0x70000a230000): Session15: StatementPrepare: OK stmt_guid=8
+2017-08-27 13:32:02.660 (0x70000a633000): Session15: StatementExecute: stmt_guid=8
+2017-08-27 13:32:02.660 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.666 (0x70000a633000): Session15: StatementExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.006s
+2017-08-27 13:32:02.666 (0x70000aa36000): Session15: StatementClose: stmt_guid=8
+2017-08-27 13:32:02.667 (0x70000ae39000): Session15: StatementOpen: stmt_guid=9
+2017-08-27 13:32:02.667 (0x70000b23c000): Session15: StatementPrepare: stmt_guid=9
+2017-08-27 13:32:02.667 (0x70000b23c000): (create column [TableauTemp].[Sheet1$].[Price] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ) )
+2017-08-27 13:32:02.667 (0x70000b23c000): Session15: StatementPrepare: OK stmt_guid=9
+2017-08-27 13:32:02.667 (0x70000b63f000): Session15: StatementExecute: stmt_guid=9
+2017-08-27 13:32:02.667 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.674 (0x70000b63f000): Session15: StatementExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-08-27 13:32:02.674 (0x70000ba42000): Session15: StatementClose: stmt_guid=9
+2017-08-27 13:32:02.675 (0x70000be45000): Session15: StatementOpen: stmt_guid=10
+2017-08-27 13:32:02.675 (0x70000a230000): Session15: StatementPrepare: stmt_guid=10
+2017-08-27 13:32:02.675 (0x70000a230000): (create column [TableauTemp].[Sheet1$].[Cost] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ) )
+2017-08-27 13:32:02.675 (0x70000a230000): Session15: StatementPrepare: OK stmt_guid=10
+2017-08-27 13:32:02.675 (0x70000a633000): Session15: StatementExecute: stmt_guid=10
+2017-08-27 13:32:02.675 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.682 (0x70000a633000): Session15: StatementExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-08-27 13:32:02.682 (0x70000aa36000): Session15: StatementClose: stmt_guid=10
+2017-08-27 13:32:02.688 (0x70000ae39000): Session15: InsertOpen: table="Sheet1$" schema="TableauTemp"
+2017-08-27 13:32:02.688 (0x70000ae39000):   column[0]="Check"
+2017-08-27 13:32:02.688 (0x70000ae39000):   column[1]="DateTime"
+2017-08-27 13:32:02.688 (0x70000ae39000):   column[2]="Cashier"
+2017-08-27 13:32:02.688 (0x70000ae39000):   column[3]="Product"
+2017-08-27 13:32:02.688 (0x70000ae39000):   column[4]="Quantity"
+2017-08-27 13:32:02.688 (0x70000ae39000):   column[5]="Price"
+2017-08-27 13:32:02.688 (0x70000ae39000):   column[6]="Cost"
+2017-08-27 13:32:02.689 (0x70000b23c000): Session15: InsertGetColumnProperties:
+2017-08-27 13:32:02.689 (0x70000b63f000): Session15: InsertGetColumnProperties:
+2017-08-27 13:32:02.689 (0x70000ba42000): Session15: InsertGetColumnProperties:
+2017-08-27 13:32:02.689 (0x70000be45000): Session15: InsertGetColumnProperties:
+2017-08-27 13:32:02.690 (0x70000a230000): Session15: InsertGetColumnProperties:
+2017-08-27 13:32:02.690 (0x70000a633000): Session15: InsertGetColumnProperties:
+2017-08-27 13:32:02.690 (0x70000aa36000): Session15: InsertGetColumnProperties:
+2017-08-27 13:32:02.690 (0x70000ae39000): Session15: InsertPutValues: total_calls=1 total_message_size=144
+2017-08-27 13:32:02.727 (0x70000b23c000): Session15: InsertCommit: insert_guid=11 total_calls=1 total_message_size=144
+2017-08-27 13:32:02.727 (0x70000b23c000): Session15: InsertCommit: OK
+2017-08-27 13:32:02.727 (0x70000b63f000): Session15: InsertClose: insert_guid=11
+2017-08-27 13:32:02.727 (0x70000b63f000): Session15: InsertClose: OK
+2017-08-27 13:32:02.729 (0x70000ba42000): Session15: StatementOpen: stmt_guid=12
+2017-08-27 13:32:02.729 (0x70000be45000): Session15: StatementPrepare: stmt_guid=12
+2017-08-27 13:32:02.729 (0x70000be45000): (restrict
+2017-08-27 13:32:02.729 (0x70000be45000):   (top
+2017-08-27 13:32:02.729 (0x70000be45000):     (project
+2017-08-27 13:32:02.729 (0x70000be45000):       (table [TableauTemp].[Sheet1$])
+2017-08-27 13:32:02.729 (0x70000be45000):       (
+2017-08-27 13:32:02.729 (0x70000be45000):         ([Number of Records] 1)
+2017-08-27 13:32:02.729 (0x70000be45000):         )
+2017-08-27 13:32:02.729 (0x70000be45000):       )
+2017-08-27 13:32:02.729 (0x70000be45000):     ()
+2017-08-27 13:32:02.729 (0x70000be45000):     1)
+2017-08-27 13:32:02.729 (0x70000be45000):   ([Cashier] [Check] [Cost] [DateTime] [Number of Records] [Price] [Product] [Quantity])
+2017-08-27 13:32:02.729 (0x70000be45000):   )
+2017-08-27 13:32:02.729 (0x70000be45000): 
+2017-08-27 13:32:02.730 (0x70000be45000): Compiling query with DOP=4
+2017-08-27 13:32:02.730 (0x70000be45000): Session15: StatementPrepare: OK stmt_guid=12
+2017-08-27 13:32:02.731 (0x70000a230000): Session15: StatementExecute: stmt_guid=12
+2017-08-27 13:32:02.731 (0x70000a230000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.731 (0x70000a230000): Session15: StatementExecute: OK stmt_guid=12 rowset_guid=13 n_columns=8, Elapsed time:0.002s, Compilation time:0.002s, Execution time:0.000s
+2017-08-27 13:32:02.732 (0x70000a633000): Session15: StatementClose: stmt_guid=12
+2017-08-27 13:32:02.732 (0x70000aa36000): Session15: RowsetGetValues: rowset_guid=13
+2017-08-27 13:32:02.732 (0x70000ae39000): Session15: RowsetGetValues: rowset_guid=13
+2017-08-27 13:32:02.734 (0x70000b23c000): Session15: RowsetClose: rowset_guid=13
+2017-08-27 13:32:02.947 (0x70000b63f000): Session15: StatementOpen: stmt_guid=14
+2017-08-27 13:32:02.948 (0x70000ba42000): Session15: StatementPrepare: stmt_guid=14
+2017-08-27 13:32:02.948 (0x70000ba42000): (package "/Users/Markos/Library/Caches/com.tableau.caching/TemporaryExtracts/0c9e817d998638a18602adf93ac666da9658c1dd8ea3c33ab96a1b47fee3376a.ttde")
+2017-08-27 13:32:02.948 (0x70000ba42000): Session15: StatementPrepare: OK stmt_guid=14
+2017-08-27 13:32:02.948 (0x70000be45000): Session15: StatementExecute: stmt_guid=14
+2017-08-27 13:32:02.948 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.948 (0x70000be45000): PackageDatabase: package database to "/Users/Markos/Library/Caches/com.tableau.caching/TemporaryExtracts/0c9e817d998638a18602adf93ac666da9658c1dd8ea3c33ab96a1b47fee3376a.ttde"
+2017-08-27 13:32:02.957 (0x70000be45000): PackageDatabase: finished
+2017-08-27 13:32:02.957 (0x70000be45000): Session15: StatementExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2017-08-27 13:32:02.957 (0x70000a230000): Session15: StatementClose: stmt_guid=14
+2017-08-27 13:32:02.958 (0x70000a633000): Session15: QueryExecute:
+2017-08-27 13:32:02.958 (0x70000a633000): (database null)
+2017-08-27 13:32:02.961 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.961 (0x70000a633000): Session15: QueryExecute: OK, Elapsed time:0.004s, Compilation time:0.000s, Execution time:0.004s
+2017-08-27 13:32:02.961 (0x70000ca4e000): tdeserver: close session15, connection=::1:52241->::1:52244
+2017-08-27 13:32:02.962 (0x70000ca4e000): tdeserver: open session17, connection=::1:52241->::1:52244
+2017-08-27 13:32:02.963 (0x70000ca4e000): tdeserver: open session18, connection=::1:52241->::1:52244
+2017-08-27 13:32:02.963 (0x70000aa36000): Session17: StatementOpen: stmt_guid=1
+2017-08-27 13:32:02.964 (0x70000ae39000): Session17: StatementPrepare: stmt_guid=1
+2017-08-27 13:32:02.964 (0x70000ae39000): (drop database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/#TableauTemp_07oo57d1aj5fce12mnssp1wrsk86.tde" cascade ifexists)
+2017-08-27 13:32:02.964 (0x70000ae39000): Session17: StatementPrepare: OK stmt_guid=1
+2017-08-27 13:32:02.964 (0x70000b23c000): Session17: StatementExecute: stmt_guid=1
+2017-08-27 13:32:02.964 (0x70000b23c000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.964 (0x70000b23c000): Session17: StatementExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:02.964 (0x70000b63f000): Session17: StatementClose: stmt_guid=1
+2017-08-27 13:32:02.964 (0x70000ba42000): Session17: QueryExecute:
+2017-08-27 13:32:02.964 (0x70000ba42000): (database null)
+2017-08-27 13:32:02.964 (0x70000ba42000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.964 (0x70000ba42000): Session17: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:02.965 (0x70000ca4e000): tdeserver: close session17, connection=::1:52241->::1:52244
+2017-08-27 13:32:02.965 (0x70000be45000): Session18: QueryExecute:
+2017-08-27 13:32:02.965 (0x70000be45000): (database null)
+2017-08-27 13:32:02.965 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.965 (0x70000be45000): Session18: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:02.965 (0x70000ca4e000): tdeserver: close session18, connection=::1:52241->::1:52244
+2017-08-27 13:32:02.965 (0x70000a230000): Session16: QueryExecute:
+2017-08-27 13:32:02.965 (0x70000a230000): (database null)
+2017-08-27 13:32:02.965 (0x70000a230000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:02.965 (0x70000a230000): Session16: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:02.965 (0x70000ca4e000): tdeserver: close session16, connection=::1:52241->::1:52244
+2017-08-27 13:32:02.971 (0x70000ca4e000): tdeserver: open session19, connection=::1:52241->::1:52244
+2017-08-27 13:32:02.972 (0x70000ca4e000): tdeserver: open session20, connection=::1:52241->::1:52244
+2017-08-27 13:32:02.972 (0x70000a633000): Session19: StatementOpen: stmt_guid=1
+2017-08-27 13:32:02.973 (0x70000aa36000): Session19: StatementPrepare: stmt_guid=1
+2017-08-27 13:32:02.973 (0x70000aa36000): (create database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/#TableauTemp_0n8xkvi07k0by116rxfnl1oq75q2.tde")
+2017-08-27 13:32:03.189 (0x70000aa36000): Session19: StatementPrepare: OK stmt_guid=1
+2017-08-27 13:32:03.190 (0x70000ae39000): Session19: StatementExecute: stmt_guid=1
+2017-08-27 13:32:03.190 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:03.190 (0x70000ae39000): Session19: StatementExecute: OK, Elapsed time:0.217s, Compilation time:0.217s, Execution time:0.000s
+2017-08-27 13:32:03.190 (0x70000b23c000): Session19: StatementClose: stmt_guid=1
+2017-08-27 13:32:03.190 (0x70000b63f000): Session19: QueryExecute:
+2017-08-27 13:32:03.190 (0x70000b63f000): (database null)
+2017-08-27 13:32:03.190 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:03.190 (0x70000b63f000): Session19: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:03.191 (0x70000ca4e000): tdeserver: close session19, connection=::1:52241->::1:52244
+2017-08-27 13:32:03.191 (0x70000ba42000): Session20: QueryExecute:
+2017-08-27 13:32:03.191 (0x70000ba42000): (database null)
+2017-08-27 13:32:03.191 (0x70000ba42000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:03.191 (0x70000ba42000): Session20: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:03.191 (0x70000ca4e000): tdeserver: close session20, connection=::1:52241->::1:52244
+2017-08-27 13:32:03.192 (0x70000ca4e000): tdeserver: open session21, connection=::1:52241->::1:52244
+2017-08-27 13:32:03.192 (0x70000be45000): Session21: QueryExecute:
+2017-08-27 13:32:03.192 (0x70000be45000): (database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/#TableauTemp_0n8xkvi07k0by116rxfnl1oq75q2.tde")
+2017-08-27 13:32:03.193 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:03.193 (0x70000be45000): Session21: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2017-08-27 13:32:03.193 (0x70000ca4e000): tdeserver: open session22, connection=::1:52241->::1:52244
+2017-08-27 13:32:03.193 (0x70000a230000): Session21: QueryExecute:
+2017-08-27 13:32:03.193 (0x70000a230000): (show schemas)
+2017-08-27 13:32:03.193 (0x70000a230000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:03.194 (0x70000a230000): Session21: QueryExecute: OK rowset_guid=1 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-08-27 13:32:03.194 (0x70000a633000): Session21: RowsetGetValues: rowset_guid=1
+2017-08-27 13:32:03.194 (0x70000aa36000): Session21: RowsetGetValues: rowset_guid=1
+2017-08-27 13:32:03.194 (0x70000ae39000): Session21: RowsetClose: rowset_guid=1
+2017-08-27 13:32:03.195 (0x70000b23c000): Session21: StatementOpen: stmt_guid=2
+2017-08-27 13:32:03.195 (0x70000b63f000): Session21: StatementPrepare: stmt_guid=2
+2017-08-27 13:32:03.195 (0x70000b63f000): (create schema [TableauTemp])
+2017-08-27 13:32:03.195 (0x70000b63f000): Session21: StatementPrepare: OK stmt_guid=2
+2017-08-27 13:32:03.195 (0x70000ba42000): Session21: StatementExecute: stmt_guid=2
+2017-08-27 13:32:03.195 (0x70000ba42000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:03.202 (0x70000ba42000): Session21: StatementExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-08-27 13:32:03.202 (0x70000be45000): Session21: StatementClose: stmt_guid=2
+2017-08-27 13:32:03.640 (0x70000ca4e000): tdeserver: open session23, connection=::1:52241->::1:52244
+2017-08-27 13:32:03.641 (0x70000a230000): Session23: QueryExecute:
+2017-08-27 13:32:03.641 (0x70000a230000): (database "/Users/Markos/Library/Caches/com.tableau.caching/TemporaryExtracts/0c9e817d998638a18602adf93ac666da9658c1dd8ea3c33ab96a1b47fee3376a.ttde")
+2017-08-27 13:32:03.641 (0x70000a230000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:03.641 (0x70000a230000): Session23: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2017-08-27 13:32:03.642 (0x70000ca4e000): tdeserver: open session24, connection=::1:52241->::1:52244
+2017-08-27 13:32:03.642 (0x70000a633000): Session23: QueryExecute:
+2017-08-27 13:32:03.642 (0x70000a633000): (show tables [TableauTemp])
+2017-08-27 13:32:03.642 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:03.644 (0x70000a633000): Session23: QueryExecute: OK rowset_guid=1 n_columns=1, Elapsed time:0.002s, Compilation time:0.000s, Execution time:0.002s
+2017-08-27 13:32:03.645 (0x70000aa36000): Session23: RowsetGetValues: rowset_guid=1
+2017-08-27 13:32:03.645 (0x70000ae39000): Session23: RowsetGetValues: rowset_guid=1
+2017-08-27 13:32:03.645 (0x70000b23c000): Session23: RowsetClose: rowset_guid=1
+2017-08-27 13:32:03.646 (0x70000b63f000): Session21: QueryExecute:
+2017-08-27 13:32:03.646 (0x70000b63f000): (database null)
+2017-08-27 13:32:03.649 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:03.649 (0x70000b63f000): Session21: QueryExecute: OK, Elapsed time:0.003s, Compilation time:0.000s, Execution time:0.003s
+2017-08-27 13:32:03.649 (0x70000ca4e000): tdeserver: close session21, connection=::1:52241->::1:52244
+2017-08-27 13:32:03.650 (0x70000ca4e000): tdeserver: open session25, connection=::1:52241->::1:52244
+2017-08-27 13:32:03.650 (0x70000ca4e000): tdeserver: open session26, connection=::1:52241->::1:52244
+2017-08-27 13:32:03.651 (0x70000ba42000): Session25: StatementOpen: stmt_guid=1
+2017-08-27 13:32:03.651 (0x70000be45000): Session25: StatementPrepare: stmt_guid=1
+2017-08-27 13:32:03.651 (0x70000be45000): (drop database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/#TableauTemp_0n8xkvi07k0by116rxfnl1oq75q2.tde" cascade ifexists)
+2017-08-27 13:32:03.651 (0x70000be45000): Session25: StatementPrepare: OK stmt_guid=1
+2017-08-27 13:32:03.652 (0x70000a230000): Session25: StatementExecute: stmt_guid=1
+2017-08-27 13:32:03.652 (0x70000a230000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:03.652 (0x70000a230000): Session25: StatementExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:03.652 (0x70000a633000): Session25: StatementClose: stmt_guid=1
+2017-08-27 13:32:03.652 (0x70000aa36000): Session25: QueryExecute:
+2017-08-27 13:32:03.652 (0x70000aa36000): (database null)
+2017-08-27 13:32:03.652 (0x70000aa36000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:03.652 (0x70000aa36000): Session25: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:03.652 (0x70000ca4e000): tdeserver: close session25, connection=::1:52241->::1:52244
+2017-08-27 13:32:03.653 (0x70000ae39000): Session26: QueryExecute:
+2017-08-27 13:32:03.653 (0x70000ae39000): (database null)
+2017-08-27 13:32:03.653 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:03.653 (0x70000ae39000): Session26: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:03.653 (0x70000ca4e000): tdeserver: close session26, connection=::1:52241->::1:52244
+2017-08-27 13:32:03.653 (0x70000b23c000): Session22: QueryExecute:
+2017-08-27 13:32:03.653 (0x70000b23c000): (database null)
+2017-08-27 13:32:03.653 (0x70000b23c000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:03.653 (0x70000b23c000): Session22: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:03.654 (0x70000ca4e000): tdeserver: close session22, connection=::1:52241->::1:52244
+2017-08-27 13:32:03.655 (0x70000b63f000): Session23: QueryExecute:
+2017-08-27 13:32:03.655 (0x70000b63f000): (show tables [TableauTemp])
+2017-08-27 13:32:03.655 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:03.656 (0x70000b63f000): Session23: QueryExecute: OK rowset_guid=2 n_columns=1, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:03.656 (0x70000ba42000): Session23: RowsetGetValues: rowset_guid=2
+2017-08-27 13:32:03.656 (0x70000be45000): Session23: RowsetGetValues: rowset_guid=2
+2017-08-27 13:32:03.656 (0x70000a230000): Session23: RowsetClose: rowset_guid=2
+2017-08-27 13:32:03.658 (0x70000a633000): Session23: StatementOpen: stmt_guid=3
+2017-08-27 13:32:03.658 (0x70000aa36000): Session23: StatementPrepare: stmt_guid=3
+2017-08-27 13:32:03.658 (0x70000aa36000): (restrict
+2017-08-27 13:32:03.658 (0x70000aa36000):   (top
+2017-08-27 13:32:03.658 (0x70000aa36000):     (project
+2017-08-27 13:32:03.658 (0x70000aa36000):       (table [TableauTemp].[Sheet1$])
+2017-08-27 13:32:03.658 (0x70000aa36000):       (
+2017-08-27 13:32:03.658 (0x70000aa36000):         ([Number of Records] 1)
+2017-08-27 13:32:03.658 (0x70000aa36000):         )
+2017-08-27 13:32:03.658 (0x70000aa36000):       )
+2017-08-27 13:32:03.658 (0x70000aa36000):     ()
+2017-08-27 13:32:03.658 (0x70000aa36000):     1)
+2017-08-27 13:32:03.658 (0x70000aa36000):   ([Cashier] [Check] [Cost] [DateTime] [Number of Records] [Price] [Product] [Quantity])
+2017-08-27 13:32:03.658 (0x70000aa36000):   )
+2017-08-27 13:32:03.658 (0x70000aa36000): 
+2017-08-27 13:32:03.669 (0x70000aa36000): Compiling query with DOP=4
+2017-08-27 13:32:03.669 (0x70000aa36000): Session23: StatementPrepare: OK stmt_guid=3
+2017-08-27 13:32:03.670 (0x70000ae39000): Session23: StatementExecute: stmt_guid=3
+2017-08-27 13:32:03.670 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:03.670 (0x70000ae39000): Session23: StatementExecute: OK stmt_guid=3 rowset_guid=4 n_columns=8, Elapsed time:0.011s, Compilation time:0.011s, Execution time:0.000s
+2017-08-27 13:32:03.671 (0x70000b23c000): Session23: StatementClose: stmt_guid=3
+2017-08-27 13:32:03.672 (0x70000b63f000): Session23: RowsetGetValues: rowset_guid=4
+2017-08-27 13:32:03.672 (0x70000ba42000): Session23: RowsetGetValues: rowset_guid=4
+2017-08-27 13:32:03.673 (0x70000be45000): Session23: RowsetClose: rowset_guid=4
+2017-08-27 13:32:22.527 (0x70000a230000): Session23: QueryExecute:
+2017-08-27 13:32:22.527 (0x70000a230000): (database null)
+2017-08-27 13:32:22.527 (0x70000a230000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:22.527 (0x70000a230000): Session23: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:22.528 (0x70000ca4e000): tdeserver: close session23, connection=::1:52241->::1:52244
+2017-08-27 13:32:22.528 (0x70000a633000): Session24: QueryExecute:
+2017-08-27 13:32:22.528 (0x70000a633000): (database null)
+2017-08-27 13:32:22.528 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:22.528 (0x70000a633000): Session24: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:22.528 (0x70000ca4e000): tdeserver: close session24, connection=::1:52241->::1:52244
+2017-08-27 13:32:22.531 (0x70000ca4e000): tdeserver: open session27, connection=::1:52241->::1:52244
+2017-08-27 13:32:22.531 (0x70000ca4e000): tdeserver: open session28, connection=::1:52241->::1:52244
+2017-08-27 13:32:22.532 (0x70000aa36000): Session27: StatementOpen: stmt_guid=1
+2017-08-27 13:32:22.532 (0x70000ae39000): Session27: StatementPrepare: stmt_guid=1
+2017-08-27 13:32:22.532 (0x70000ae39000): (create database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/#TableauTemp_1ujtbea0eriqe4150z4ma1kxmmje.tde")
+2017-08-27 13:32:22.707 (0x70000ae39000): Session27: StatementPrepare: OK stmt_guid=1
+2017-08-27 13:32:22.707 (0x70000b23c000): Session27: StatementExecute: stmt_guid=1
+2017-08-27 13:32:22.707 (0x70000b23c000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:22.707 (0x70000b23c000): Session27: StatementExecute: OK, Elapsed time:0.174s, Compilation time:0.174s, Execution time:0.000s
+2017-08-27 13:32:22.707 (0x70000b63f000): Session27: StatementClose: stmt_guid=1
+2017-08-27 13:32:22.708 (0x70000ba42000): Session27: QueryExecute:
+2017-08-27 13:32:22.708 (0x70000ba42000): (database null)
+2017-08-27 13:32:22.708 (0x70000ba42000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:22.708 (0x70000ba42000): Session27: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:22.708 (0x70000ca4e000): tdeserver: close session27, connection=::1:52241->::1:52244
+2017-08-27 13:32:22.708 (0x70000be45000): Session28: QueryExecute:
+2017-08-27 13:32:22.708 (0x70000be45000): (database null)
+2017-08-27 13:32:22.708 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:22.708 (0x70000be45000): Session28: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-27 13:32:22.708 (0x70000ca4e000): tdeserver: close session28, connection=::1:52241->::1:52244
+2017-08-27 13:32:22.709 (0x70000ca4e000): tdeserver: open session29, connection=::1:52241->::1:52244
+2017-08-27 13:32:22.709 (0x70000a230000): Session29: QueryExecute:
+2017-08-27 13:32:22.709 (0x70000a230000): (database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/#TableauTemp_1ujtbea0eriqe4150z4ma1kxmmje.tde")
+2017-08-27 13:32:22.710 (0x70000a230000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:22.710 (0x70000a230000): Session29: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2017-08-27 13:32:22.710 (0x70000ca4e000): tdeserver: open session30, connection=::1:52241->::1:52244
+2017-08-27 13:32:22.710 (0x70000a633000): Session29: QueryExecute:
+2017-08-27 13:32:22.710 (0x70000a633000): (show schemas)
+2017-08-27 13:32:22.711 (0x70000a633000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:22.711 (0x70000a633000): Session29: QueryExecute: OK rowset_guid=1 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-08-27 13:32:22.711 (0x70000aa36000): Session29: RowsetGetValues: rowset_guid=1
+2017-08-27 13:32:22.712 (0x70000ae39000): Session29: RowsetGetValues: rowset_guid=1
+2017-08-27 13:32:22.712 (0x70000b23c000): Session29: RowsetClose: rowset_guid=1
+2017-08-27 13:32:22.712 (0x70000b63f000): Session29: StatementOpen: stmt_guid=2
+2017-08-27 13:32:22.712 (0x70000ba42000): Session29: StatementPrepare: stmt_guid=2
+2017-08-27 13:32:22.712 (0x70000ba42000): (create schema [TableauTemp])
+2017-08-27 13:32:22.712 (0x70000ba42000): Session29: StatementPrepare: OK stmt_guid=2
+2017-08-27 13:32:22.712 (0x70000be45000): Session29: StatementExecute: stmt_guid=2
+2017-08-27 13:32:22.712 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:22.719 (0x70000be45000): Session29: StatementExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-08-27 13:32:22.719 (0x70000a230000): Session29: StatementClose: stmt_guid=2
+2017-08-27 13:32:22.724 (0x70000a633000): Session29: StatementOpen: stmt_guid=3
+2017-08-27 13:32:22.724 (0x70000aa36000): Session29: StatementPrepare: stmt_guid=3
+2017-08-27 13:32:22.724 (0x70000aa36000): (create table [TableauTemp].[Sheet1$])
+2017-08-27 13:32:22.724 (0x70000aa36000): Session29: StatementPrepare: OK stmt_guid=3
+2017-08-27 13:32:22.724 (0x70000ae39000): Session29: StatementExecute: stmt_guid=3
+2017-08-27 13:32:22.724 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:22.734 (0x70000ae39000): Session29: StatementExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-08-27 13:32:22.734 (0x70000b23c000): Session29: StatementClose: stmt_guid=3
+2017-08-27 13:32:22.734 (0x70000b63f000): Session29: StatementOpen: stmt_guid=4
+2017-08-27 13:32:22.734 (0x70000ba42000): Session29: StatementPrepare: stmt_guid=4
+2017-08-27 13:32:22.734 (0x70000ba42000): (create column [TableauTemp].[Sheet1$].[Check] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "0" ) ) )
+2017-08-27 13:32:22.736 (0x70000ba42000): Session29: StatementPrepare: OK stmt_guid=4
+2017-08-27 13:32:22.736 (0x70000be45000): Session29: StatementExecute: stmt_guid=4
+2017-08-27 13:32:22.736 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:22.767 (0x70000be45000): Session29: StatementExecute: OK, Elapsed time:0.033s, Compilation time:0.002s, Execution time:0.031s
+2017-08-27 13:32:22.768 (0x70000a230000): Session29: StatementClose: stmt_guid=4
+2017-08-27 13:32:22.768 (0x70000a633000): Session29: StatementOpen: stmt_guid=5
+2017-08-27 13:32:22.768 (0x70000aa36000): Session29: StatementPrepare: stmt_guid=5
+2017-08-27 13:32:22.768 (0x70000aa36000): (create column [TableauTemp].[Sheet1$].[DateTime] ( ( "builtin" "datetime" ) ( "factory" "builtin" ) ( "ordinal" "1" ) ) )
+2017-08-27 13:32:22.769 (0x70000aa36000): Session29: StatementPrepare: OK stmt_guid=5
+2017-08-27 13:32:22.769 (0x70000ae39000): Session29: StatementExecute: stmt_guid=5
+2017-08-27 13:32:22.769 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:22.775 (0x70000ae39000): Session29: StatementExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.006s
+2017-08-27 13:32:22.775 (0x70000b23c000): Session29: StatementClose: stmt_guid=5
+2017-08-27 13:32:22.775 (0x70000b63f000): Session29: StatementOpen: stmt_guid=6
+2017-08-27 13:32:22.776 (0x70000ba42000): Session29: StatementPrepare: stmt_guid=6
+2017-08-27 13:32:22.776 (0x70000ba42000): (create column [TableauTemp].[Sheet1$].[Cashier] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "2" ) ) )
+2017-08-27 13:32:22.776 (0x70000ba42000): Session29: StatementPrepare: OK stmt_guid=6
+2017-08-27 13:32:22.776 (0x70000be45000): Session29: StatementExecute: stmt_guid=6
+2017-08-27 13:32:22.776 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:22.782 (0x70000be45000): Session29: StatementExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.006s
+2017-08-27 13:32:22.782 (0x70000a230000): Session29: StatementClose: stmt_guid=6
+2017-08-27 13:32:22.782 (0x70000a633000): Session29: StatementOpen: stmt_guid=7
+2017-08-27 13:32:22.783 (0x70000aa36000): Session29: StatementPrepare: stmt_guid=7
+2017-08-27 13:32:22.783 (0x70000aa36000): (create column [TableauTemp].[Sheet1$].[Product] ( ( "collation" "en_US_CI" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "3" ) ( "scale" "1" ) ( "storagewidth" "8" ) ) )
+2017-08-27 13:32:22.783 (0x70000aa36000): Session29: StatementPrepare: OK stmt_guid=7
+2017-08-27 13:32:22.783 (0x70000ae39000): Session29: StatementExecute: stmt_guid=7
+2017-08-27 13:32:22.783 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:22.789 (0x70000ae39000): Session29: StatementExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.006s
+2017-08-27 13:32:22.789 (0x70000b23c000): Session29: StatementClose: stmt_guid=7
+2017-08-27 13:32:22.790 (0x70000b63f000): Session29: StatementOpen: stmt_guid=8
+2017-08-27 13:32:22.790 (0x70000ba42000): Session29: StatementPrepare: stmt_guid=8
+2017-08-27 13:32:22.790 (0x70000ba42000): (create column [TableauTemp].[Sheet1$].[Quantity] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ) )
+2017-08-27 13:32:22.790 (0x70000ba42000): Session29: StatementPrepare: OK stmt_guid=8
+2017-08-27 13:32:22.790 (0x70000be45000): Session29: StatementExecute: stmt_guid=8
+2017-08-27 13:32:22.790 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:22.796 (0x70000be45000): Session29: StatementExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.006s
+2017-08-27 13:32:22.797 (0x70000a230000): Session29: StatementClose: stmt_guid=8
+2017-08-27 13:32:22.797 (0x70000a633000): Session29: StatementOpen: stmt_guid=9
+2017-08-27 13:32:22.797 (0x70000aa36000): Session29: StatementPrepare: stmt_guid=9
+2017-08-27 13:32:22.797 (0x70000aa36000): (create column [TableauTemp].[Sheet1$].[Price] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ) )
+2017-08-27 13:32:22.797 (0x70000aa36000): Session29: StatementPrepare: OK stmt_guid=9
+2017-08-27 13:32:22.797 (0x70000ae39000): Session29: StatementExecute: stmt_guid=9
+2017-08-27 13:32:22.797 (0x70000ae39000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:22.804 (0x70000ae39000): Session29: StatementExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.006s
+2017-08-27 13:32:22.804 (0x70000b23c000): Session29: StatementClose: stmt_guid=9
+2017-08-27 13:32:22.804 (0x70000b63f000): Session29: StatementOpen: stmt_guid=10
+2017-08-27 13:32:22.804 (0x70000ba42000): Session29: StatementPrepare: stmt_guid=10
+2017-08-27 13:32:22.804 (0x70000ba42000): (create column [TableauTemp].[Sheet1$].[Cost] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ) )
+2017-08-27 13:32:22.804 (0x70000ba42000): Session29: StatementPrepare: OK stmt_guid=10
+2017-08-27 13:32:22.805 (0x70000be45000): Session29: StatementExecute: stmt_guid=10
+2017-08-27 13:32:22.805 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:22.812 (0x70000be45000): Session29: StatementExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-08-27 13:32:22.812 (0x70000a230000): Session29: StatementClose: stmt_guid=10
+2017-08-27 13:32:22.818 (0x70000a633000): Session29: InsertOpen: table="Sheet1$" schema="TableauTemp"
+2017-08-27 13:32:22.818 (0x70000a633000):   column[0]="Check"
+2017-08-27 13:32:22.818 (0x70000a633000):   column[1]="DateTime"
+2017-08-27 13:32:22.818 (0x70000a633000):   column[2]="Cashier"
+2017-08-27 13:32:22.818 (0x70000a633000):   column[3]="Product"
+2017-08-27 13:32:22.818 (0x70000a633000):   column[4]="Quantity"
+2017-08-27 13:32:22.818 (0x70000a633000):   column[5]="Price"
+2017-08-27 13:32:22.818 (0x70000a633000):   column[6]="Cost"
+2017-08-27 13:32:22.819 (0x70000aa36000): Session29: InsertGetColumnProperties:
+2017-08-27 13:32:22.819 (0x70000ae39000): Session29: InsertGetColumnProperties:
+2017-08-27 13:32:22.819 (0x70000b23c000): Session29: InsertGetColumnProperties:
+2017-08-27 13:32:22.819 (0x70000b63f000): Session29: InsertGetColumnProperties:
+2017-08-27 13:32:22.820 (0x70000ba42000): Session29: InsertGetColumnProperties:
+2017-08-27 13:32:22.820 (0x70000be45000): Session29: InsertGetColumnProperties:
+2017-08-27 13:32:22.820 (0x70000a230000): Session29: InsertGetColumnProperties:
+2017-08-27 13:32:22.820 (0x70000a633000): Session29: InsertPutValues: total_calls=1 total_message_size=144
+2017-08-27 13:32:22.857 (0x70000aa36000): Session29: InsertCommit: insert_guid=11 total_calls=1 total_message_size=144
+2017-08-27 13:32:22.857 (0x70000aa36000): Session29: InsertCommit: OK
+2017-08-27 13:32:22.858 (0x70000ae39000): Session29: InsertClose: insert_guid=11
+2017-08-27 13:32:22.858 (0x70000ae39000): Session29: InsertClose: OK
+2017-08-27 13:32:22.859 (0x70000b23c000): Session29: StatementOpen: stmt_guid=12
+2017-08-27 13:32:22.859 (0x70000b63f000): Session29: StatementPrepare: stmt_guid=12
+2017-08-27 13:32:22.859 (0x70000b63f000): (restrict
+2017-08-27 13:32:22.859 (0x70000b63f000):   (top
+2017-08-27 13:32:22.859 (0x70000b63f000):     (project
+2017-08-27 13:32:22.859 (0x70000b63f000):       (table [TableauTemp].[Sheet1$])
+2017-08-27 13:32:22.859 (0x70000b63f000):       (
+2017-08-27 13:32:22.859 (0x70000b63f000):         ([Number of Records] 1)
+2017-08-27 13:32:22.859 (0x70000b63f000):         )
+2017-08-27 13:32:22.859 (0x70000b63f000):       )
+2017-08-27 13:32:22.859 (0x70000b63f000):     ()
+2017-08-27 13:32:22.859 (0x70000b63f000):     1)
+2017-08-27 13:32:22.859 (0x70000b63f000):   ([Cashier] [Check] [Cost] [DateTime] [Number of Records] [Price] [Product] [Quantity])
+2017-08-27 13:32:22.859 (0x70000b63f000):   )
+2017-08-27 13:32:22.859 (0x70000b63f000): 
+2017-08-27 13:32:22.860 (0x70000b63f000): Compiling query with DOP=4
+2017-08-27 13:32:22.861 (0x70000b63f000): Session29: StatementPrepare: OK stmt_guid=12
+2017-08-27 13:32:22.861 (0x70000ba42000): Session29: StatementExecute: stmt_guid=12
+2017-08-27 13:32:22.861 (0x70000ba42000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-27 13:32:22.862 (0x70000ba42000): Session29: StatementExecute: OK stmt_guid=12 rowset_guid=13 n_columns=8, Elapsed time:0.002s, Compilation time:0.002s, Execution time:0.000s
+2017-08-27 13:32:22.862 (0x70000be45000): Session29: StatementClose: stmt_guid=12
+2017-08-27 13:32:22.863 (0x70000a230000): Session29: RowsetGetValues: rowset_guid=13
+2017-08-27 13:32:22.863 (0x70000a633000): Session29: RowsetGetValues: rowset_guid=13
+2017-08-27 13:32:22.864 (0x70000aa36000): Session29: RowsetClose: rowset_guid=13
+2017-08-28 13:53:03.002 (0x70000ae39000): Session29: StatementOpen: stmt_guid=14
+2017-08-28 13:53:03.003 (0x70000b23c000): Session29: StatementPrepare: stmt_guid=14
+2017-08-28 13:53:03.003 (0x70000b23c000): (package "/Users/Markos/Library/Caches/com.tableau.caching/TemporaryExtracts/f7cc6eec638bafb2070c8f36735ac43ecccacb8348f265913e8708d09bf6b534.ttde")
+2017-08-28 13:53:03.003 (0x70000b23c000): Session29: StatementPrepare: OK stmt_guid=14
+2017-08-28 13:53:03.004 (0x70000b63f000): Session29: StatementExecute: stmt_guid=14
+2017-08-28 13:53:03.004 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-28 13:53:03.004 (0x70000b63f000): PackageDatabase: package database to "/Users/Markos/Library/Caches/com.tableau.caching/TemporaryExtracts/f7cc6eec638bafb2070c8f36735ac43ecccacb8348f265913e8708d09bf6b534.ttde"
+2017-08-28 13:53:03.022 (0x70000b63f000): PackageDatabase: finished
+2017-08-28 13:53:03.022 (0x70000b63f000): Session29: StatementExecute: OK, Elapsed time:0.019s, Compilation time:0.000s, Execution time:0.018s
+2017-08-28 13:53:03.022 (0x70000ba42000): Session29: StatementClose: stmt_guid=14
+2017-08-28 13:53:03.023 (0x70000be45000): Session29: QueryExecute:
+2017-08-28 13:53:03.023 (0x70000be45000): (database null)
+2017-08-28 13:53:03.030 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-28 13:53:03.030 (0x70000be45000): Session29: QueryExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.006s
+2017-08-28 13:53:03.030 (0x70000ca4e000): tdeserver: close session29, connection=::1:52241->::1:52244
+2017-08-28 13:53:03.032 (0x70000ca4e000): tdeserver: open session31, connection=::1:52241->::1:52244
+2017-08-28 13:53:03.032 (0x70000ca4e000): tdeserver: open session32, connection=::1:52241->::1:52244
+2017-08-28 13:53:03.033 (0x70000a230000): Session31: StatementOpen: stmt_guid=1
+2017-08-28 13:53:03.033 (0x70000a633000): Session31: StatementPrepare: stmt_guid=1
+2017-08-28 13:53:03.033 (0x70000a633000): (drop database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/#TableauTemp_1ujtbea0eriqe4150z4ma1kxmmje.tde" cascade ifexists)
+2017-08-28 13:53:03.034 (0x70000a633000): Session31: StatementPrepare: OK stmt_guid=1
+2017-08-28 13:53:03.034 (0x70000aa36000): Session31: StatementExecute: stmt_guid=1
+2017-08-28 13:53:03.034 (0x70000aa36000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-28 13:53:03.034 (0x70000aa36000): Session31: StatementExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-28 13:53:03.034 (0x70000ae39000): Session31: StatementClose: stmt_guid=1
+2017-08-28 13:53:03.034 (0x70000b23c000): Session31: QueryExecute:
+2017-08-28 13:53:03.034 (0x70000b23c000): (database null)
+2017-08-28 13:53:03.034 (0x70000b23c000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-28 13:53:03.035 (0x70000b23c000): Session31: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-28 13:53:03.035 (0x70000ca4e000): tdeserver: close session31, connection=::1:52241->::1:52244
+2017-08-28 13:53:03.035 (0x70000b63f000): Session32: QueryExecute:
+2017-08-28 13:53:03.035 (0x70000b63f000): (database null)
+2017-08-28 13:53:03.035 (0x70000b63f000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-28 13:53:03.035 (0x70000b63f000): Session32: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-28 13:53:03.035 (0x70000ca4e000): tdeserver: close session32, connection=::1:52241->::1:52244
+2017-08-28 13:53:03.035 (0x70000ba42000): Session30: QueryExecute:
+2017-08-28 13:53:03.035 (0x70000ba42000): (database null)
+2017-08-28 13:53:03.035 (0x70000ba42000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-28 13:53:03.036 (0x70000ba42000): Session30: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-28 13:53:03.036 (0x70000ca4e000): tdeserver: close session30, connection=::1:52241->::1:52244
+2017-08-28 13:53:03.060 (0x70000be45000): Session9: QueryExecute:
+2017-08-28 13:53:03.060 (0x70000be45000): (database null)
+2017-08-28 13:53:03.060 (0x70000be45000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-28 13:53:03.060 (0x70000be45000): Session9: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-28 13:53:03.060 (0x70000ca4e000): tdeserver: close session9, connection=::1:52241->::1:52244
+2017-08-28 13:53:03.060 (0x70000a230000): Session10: QueryExecute:
+2017-08-28 13:53:03.060 (0x70000a230000): (database null)
+2017-08-28 13:53:03.061 (0x70000a230000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-08-28 13:53:03.061 (0x70000a230000): Session10: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-08-28 13:53:03.061 (0x70000ca4e000): tdeserver: close session10, connection=::1:52241->::1:52244
+2017-08-28 13:53:03.062 (0x70000ca4e000): tdeserver: disconnected connection=::1:52241->::1:52244: IPC_SocketConnection::Read(len=16, connection=::1:52241->::1:52244): The connection was closed by the peer in IPC_Socket::Recv(len=16)
+2017-08-28 13:53:03.062 (0x70000ca4e000): tdeserver: closing connection=::1:52241->::1:52244
+2017-08-28 13:53:03.396 (0x7fffa99383c0): tdeserver: exit (0)
+2017-09-21 16:53:08.194 (0x7fffa9d853c0): -----------------------------------------------------------------------------
+2017-09-21 16:53:08.194 (0x7fffa9d853c0): Initializing fault reporting
+2017-09-21 16:53:08.194 (0x7fffa9d853c0): Fault reporting log pathname: /Users/Markos/Documents/My Tableau Repository/Logs/tdeserver64-error.log
+2017-09-21 16:53:08.198 (0x7fffa9d853c0): -----------------------------------------------------------------------------
+2017-09-21 16:53:08.198 (0x7fffa9d853c0): argv[0]="/Applications/Tableau Desktop 10.3.app/Contents/MacOS/tdeserver64"
+2017-09-21 16:53:08.198 (0x7fffa9d853c0): argv[1]="--callback"
+2017-09-21 16:53:08.198 (0x7fffa9d853c0): argv[2]="tab.tcp://[::1]:65341"
+2017-09-21 16:53:08.198 (0x7fffa9d853c0): argv[3]="--listen"
+2017-09-21 16:53:08.198 (0x7fffa9d853c0): argv[4]="tab.tcp://:auto"
+2017-09-21 16:53:08.198 (0x7fffa9d853c0): argv[5]="--log"
+2017-09-21 16:53:08.198 (0x7fffa9d853c0): argv[6]="/Users/Markos/Documents/My Tableau Repository/Logs/tdeserver.txt"
+2017-09-21 16:53:08.198 (0x7fffa9d853c0): argv[7]="--desktop"
+2017-09-21 16:53:08.198 (0x7fffa9d853c0): pid=30238
+2017-09-21 16:53:08.199 (0x7fffa9d853c0): Machine Configuration
+2017-09-21 16:53:08.199 (0x7fffa9d853c0):   Max Descriptors: 10240
+2017-09-21 16:53:08.199 (0x7fffa9d853c0): Vectorization Support
+2017-09-21 16:53:08.199 (0x7fffa9d853c0):   Supports SSE:    Yes
+2017-09-21 16:53:08.199 (0x7fffa9d853c0):   Supports SSE2:   Yes
+2017-09-21 16:53:08.199 (0x7fffa9d853c0):   Supports SSE3:   Yes
+2017-09-21 16:53:08.199 (0x7fffa9d853c0):   Supports SSE4.1: Yes
+2017-09-21 16:53:08.199 (0x7fffa9d853c0):   Supports SSE4.2: Yes
+2017-09-21 16:53:08.199 (0x7fffa9d853c0):   Supports AVX:    Yes
+2017-09-21 16:53:08.199 (0x7fffa9d853c0):   Supports AVX2:   Yes
+2017-09-21 16:53:08.199 (0x7fffa9d853c0): Adjusted Values
+2017-09-21 16:53:08.199 (0x7fffa9d853c0):   Physical RAM:              17179869184
+2017-09-21 16:53:08.199 (0x7fffa9d853c0):   CPUs available to process: 8
+2017-09-21 16:53:08.199 (0x7fffa9d853c0):   worker-threads:            8
+2017-09-21 16:53:08.199 (0x7fffa9d853c0):   max-concurrency:           4
+2017-09-21 16:53:08.199 (0x7fffa9d853c0):   query-parallelism:         4
+2017-09-21 16:53:08.199 (0x7fffa9d853c0):   min-query-parallelism:     2
+2017-09-21 16:53:08.199 (0x7fffa9d853c0):   work-buffer-size:          64
+2017-09-21 16:53:08.199 (0x7fffa9d853c0):   MemoryMapEntireFile:       1
+2017-09-21 16:53:08.199 (0x7fffa9d853c0):   use-openfile-cache:        1
+2017-09-21 16:53:08.201 (0x7fffa9d853c0): tdeserver: server listening for incoming connections at: tab.tcp://[::1]:65342
+2017-09-21 16:53:08.202 (0x7fffa9d853c0): tdeserver: new connection, connection=::1:65342->::1:65344
+2017-09-21 16:53:08.203 (0x7000094a3000): tdeserver: open session1, connection=::1:65342->::1:65344
+2017-09-21 16:53:08.204 (0x7000094a3000): tdeserver: open session2, connection=::1:65342->::1:65344
+2017-09-21 16:53:08.206 (0x70000748b000): Session1: StatementOpen: stmt_guid=1
+2017-09-21 16:53:08.207 (0x70000788e000): Session1: StatementPrepare: stmt_guid=1
+2017-09-21 16:53:08.207 (0x70000788e000): (create database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/#TableauTemp_04ix7y01fid15y181spk91b8ep4h.tde")
+2017-09-21 16:53:08.452 (0x70000788e000): Session1: StatementPrepare: OK stmt_guid=1
+2017-09-21 16:53:08.452 (0x700007c91000): Session1: StatementExecute: stmt_guid=1
+2017-09-21 16:53:08.452 (0x700007c91000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-09-21 16:53:08.452 (0x700007c91000): Session1: StatementExecute: OK, Elapsed time:0.245s, Compilation time:0.245s, Execution time:0.000s
+2017-09-21 16:53:08.453 (0x700008094000): Session1: StatementClose: stmt_guid=1
+2017-09-21 16:53:08.454 (0x700008497000): Session1: QueryExecute:
+2017-09-21 16:53:08.454 (0x700008497000): (database null)
+2017-09-21 16:53:08.454 (0x700008497000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-09-21 16:53:08.454 (0x700008497000): Session1: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-09-21 16:53:08.454 (0x7000094a3000): tdeserver: close session1, connection=::1:65342->::1:65344
+2017-09-21 16:53:08.454 (0x70000889a000): Session2: QueryExecute:
+2017-09-21 16:53:08.454 (0x70000889a000): (database null)
+2017-09-21 16:53:08.454 (0x70000889a000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-09-21 16:53:08.454 (0x70000889a000): Session2: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-09-21 16:53:08.454 (0x7000094a3000): tdeserver: close session2, connection=::1:65342->::1:65344
+2017-09-21 16:53:08.456 (0x7fffa9d853c0): tdeserver: new connection, connection=::1:65342->::1:65345
+2017-09-21 16:53:08.456 (0x700009ca9000): tdeserver: open session3, connection=::1:65342->::1:65345
+2017-09-21 16:53:08.456 (0x700008c9d000): Session3: QueryExecute:
+2017-09-21 16:53:08.456 (0x700008c9d000): (database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/#TableauTemp_04ix7y01fid15y181spk91b8ep4h.tde")
+2017-09-21 16:53:08.456 (0x7000094a3000): tdeserver: disconnected connection=::1:65342->::1:65344: IPC_SocketConnection::Read(len=16, connection=::1:65342->::1:65344): The connection was closed by the peer in IPC_Socket::Recv(len=16)
+2017-09-21 16:53:08.456 (0x7000094a3000): tdeserver: closing connection=::1:65342->::1:65344
+2017-09-21 16:53:08.457 (0x700008c9d000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-09-21 16:53:08.457 (0x700008c9d000): Session3: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2017-09-21 16:53:08.457 (0x700009ca9000): tdeserver: open session4, connection=::1:65342->::1:65345
+2017-09-21 16:53:08.458 (0x7000090a0000): Session3: QueryExecute:
+2017-09-21 16:53:08.458 (0x7000090a0000): (show schemas)
+2017-09-21 16:53:08.458 (0x7000090a0000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-09-21 16:53:08.459 (0x7000090a0000): Session3: QueryExecute: OK rowset_guid=1 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-09-21 16:53:08.460 (0x70000748b000): Session3: RowsetGetValues: rowset_guid=1
+2017-09-21 16:53:08.460 (0x70000788e000): Session3: RowsetGetValues: rowset_guid=1
+2017-09-21 16:53:08.460 (0x700007c91000): Session3: RowsetClose: rowset_guid=1
+2017-09-21 16:53:08.461 (0x700008094000): Session3: StatementOpen: stmt_guid=2
+2017-09-21 16:53:08.461 (0x700008497000): Session3: StatementPrepare: stmt_guid=2
+2017-09-21 16:53:08.461 (0x700008497000): (create schema [TableauTemp])
+2017-09-21 16:53:08.461 (0x700008497000): Session3: StatementPrepare: OK stmt_guid=2
+2017-09-21 16:53:08.461 (0x70000889a000): Session3: StatementExecute: stmt_guid=2
+2017-09-21 16:53:08.461 (0x70000889a000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-09-21 16:53:08.469 (0x70000889a000): Session3: StatementExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2017-09-21 16:53:08.470 (0x700008c9d000): Session3: StatementClose: stmt_guid=2
+2017-09-21 16:53:08.498 (0x7000090a0000): Session3: StatementOpen: stmt_guid=3
+2017-09-21 16:53:08.499 (0x70000748b000): Session3: StatementPrepare: stmt_guid=3
+2017-09-21 16:53:08.499 (0x70000748b000): (text "/Users/Markos/Balti-ba.csv" (
+2017-09-21 16:53:08.499 (0x70000748b000):      )
+2017-09-21 16:53:08.499 (0x70000748b000):   ( ("collation" "en_US") ("locale" "en_US") ("single-char" "") ) )
+2017-09-21 16:53:08.691 (0x70000748b000): Compiling query with DOP=4
+2017-09-21 16:53:08.746 (0x70000748b000): Session3: StatementPrepare: OK stmt_guid=3
+2017-09-21 16:53:08.746 (0x70000788e000): Session3: StatementExecute: stmt_guid=3
+2017-09-21 16:53:08.746 (0x70000788e000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-09-21 16:53:08.750 (0x70000788e000): Session3: StatementExecute: OK stmt_guid=3 rowset_guid=4 n_columns=13, Elapsed time:0.251s, Compilation time:0.247s, Execution time:0.004s
+2017-09-21 16:53:08.750 (0x700007c91000): Session3: StatementClose: stmt_guid=3
+2017-09-21 16:53:08.751 (0x700008094000): Session3: RowsetGetProperties: rowset_guid=4
+2017-09-21 16:53:08.751 (0x700008497000): Session3: RowsetClose: rowset_guid=4
+2017-09-21 16:53:18.649 (0x70000889a000): Session3: StatementOpen: stmt_guid=5
+2017-09-21 16:53:18.650 (0x700008c9d000): Session3: StatementPrepare: stmt_guid=5
+2017-09-21 16:53:18.650 (0x700008c9d000): (create table-from-query [TableauTemp].[Balti-ba#csv]
+2017-09-21 16:53:18.650 (0x700008c9d000):   (text "/Users/Markos/Balti-ba.csv" (
+2017-09-21 16:53:18.650 (0x700008c9d000):     ( ("builtin" "bigint") ("factory" "builtin") ("name" "F1") ("ordinal" "0") )
+2017-09-21 16:53:18.650 (0x700008c9d000):     ( ("builtin" "date") ("factory" "builtin") ("name" "CrimeDate") ("ordinal" "1") )
+2017-09-21 16:53:18.650 (0x700008c9d000):     ( ("builtin" "duration") ("factory" "builtin") ("name" "CrimeTime") ("ordinal" "2") )
+2017-09-21 16:53:18.650 (0x700008c9d000):     ( ("collation" "en_US") ("factory" "varchar") ("name" "Location") ("ordinal" "3") ("scale" "1") )
+2017-09-21 16:53:18.650 (0x700008c9d000):     ( ("collation" "en_US") ("factory" "varchar") ("name" "Description") ("ordinal" "4") ("scale" "1") )
+2017-09-21 16:53:18.650 (0x700008c9d000):     ( ("collation" "en_US") ("factory" "varchar") ("name" "Inside/Outside") ("ordinal" "5") ("scale" "1") )
+2017-09-21 16:53:18.650 (0x700008c9d000):     ( ("collation" "en_US") ("factory" "varchar") ("name" "Weapon") ("ordinal" "6") ("scale" "1") )
+2017-09-21 16:53:18.650 (0x700008c9d000):     ( ("collation" "en_US") ("factory" "varchar") ("name" "District") ("ordinal" "7") ("scale" "1") )
+2017-09-21 16:53:18.650 (0x700008c9d000):     ( ("collation" "en_US") ("factory" "varchar") ("name" "Neighborhood") ("ordinal" "8") ("scale" "1") )
+2017-09-21 16:53:18.650 (0x700008c9d000):     ( ("builtin" "double") ("factory" "builtin") ("name" "Longitude") ("ordinal" "9") )
+2017-09-21 16:53:18.650 (0x700008c9d000):     ( ("builtin" "double") ("factory" "builtin") ("name" "Latitude") ("ordinal" "10") )
+2017-09-21 16:53:18.650 (0x700008c9d000):     ( ("collation" "en_US") ("factory" "varchar") ("name" "Location 1") ("ordinal" "11") ("scale" "1") )
+2017-09-21 16:53:18.650 (0x700008c9d000):     ( ("collation" "en_US") ("factory" "varchar") ("name" "Premise") ("ordinal" "12") ("scale" "1") ) )
+2017-09-21 16:53:18.650 (0x700008c9d000):   ( ("character-set" "UTF-8") ("collation" "en_US") ("field-delimiter" ",") ("header-row" "true") ("locale" "en_US") ("single-char" "") ) ))
+2017-09-21 16:53:18.749 (0x700008c9d000): Compiling query with DOP=4
+2017-09-21 16:53:18.808 (0x700008c9d000): Session3: StatementPrepare: OK stmt_guid=5
+2017-09-21 16:53:18.808 (0x7000090a0000): Session3: StatementExecute: stmt_guid=5
+2017-09-21 16:53:18.808 (0x7000090a0000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-09-21 16:53:19.905 (0x7000090a0000): LogScopeTime: FlowTable::Build,0,2017-09-21 16:53:18.8219,1.08
+2017-09-21 16:53:20.303 (0x7000090a0000): Session3: StatementExecute: OK, Elapsed time:1.652s, Compilation time:0.158s, Execution time:1.494s
+2017-09-21 16:53:20.303 (0x70000748b000): Session3: StatementClose: stmt_guid=5
+2017-09-21 16:53:20.306 (0x70000788e000): Session3: StatementOpen: stmt_guid=6
+2017-09-21 16:53:20.306 (0x700007c91000): Session3: StatementPrepare: stmt_guid=6
+2017-09-21 16:53:20.306 (0x700007c91000): (restrict
+2017-09-21 16:53:20.306 (0x700007c91000):   (top
+2017-09-21 16:53:20.306 (0x700007c91000):     (project
+2017-09-21 16:53:20.306 (0x700007c91000):       (table [TableauTemp].[Balti-ba#csv])
+2017-09-21 16:53:20.306 (0x700007c91000):       (
+2017-09-21 16:53:20.306 (0x700007c91000):         ([Number of Records] 1)
+2017-09-21 16:53:20.306 (0x700007c91000):         )
+2017-09-21 16:53:20.306 (0x700007c91000):       )
+2017-09-21 16:53:20.306 (0x700007c91000):     ()
+2017-09-21 16:53:20.306 (0x700007c91000):     1000)
+2017-09-21 16:53:20.306 (0x700007c91000):   ([CrimeDate] [CrimeTime] [Description] [District] [F1] [Inside/Outside] [Latitude] [Location 1] [Location] [Longitude] [Neighborhood] [Number of Records] [Premise] [Weapon])
+2017-09-21 16:53:20.306 (0x700007c91000):   )
+2017-09-21 16:53:20.306 (0x700007c91000): 
+2017-09-21 16:53:20.309 (0x700007c91000): Compiling query with DOP=4
+2017-09-21 16:53:20.311 (0x700007c91000): Session3: StatementPrepare: OK stmt_guid=6
+2017-09-21 16:53:20.311 (0x700008094000): Session3: StatementExecute: stmt_guid=6
+2017-09-21 16:53:20.311 (0x700008094000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-09-21 16:53:20.313 (0x700008094000): Session3: StatementExecute: OK stmt_guid=6 rowset_guid=7 n_columns=14, Elapsed time:0.006s, Compilation time:0.005s, Execution time:0.002s
+2017-09-21 16:53:20.314 (0x700008497000): Session3: StatementClose: stmt_guid=6
+2017-09-21 16:53:20.315 (0x70000889a000): Session3: RowsetGetValues: rowset_guid=7
+2017-09-21 16:53:20.318 (0x700008c9d000): Session3: RowsetGetValues: rowset_guid=7
+2017-09-21 16:53:20.322 (0x7000090a0000): Session3: RowsetClose: rowset_guid=7
+2017-09-22 22:25:04.113 (0x70000748b000): Session3: StatementOpen: stmt_guid=8
+2017-09-22 22:25:04.114 (0x70000788e000): Session3: StatementPrepare: stmt_guid=8
+2017-09-22 22:25:04.114 (0x70000788e000): (package "/Users/Markos/Library/Caches/com.tableau.caching/TemporaryExtracts/7115adfa64aa1e6823aed04cf15ec13d5475f0d07bbafeeb208f847e8a8a927c.ttde")
+2017-09-22 22:25:04.114 (0x70000788e000): Session3: StatementPrepare: OK stmt_guid=8
+2017-09-22 22:25:04.115 (0x700007c91000): Session3: StatementExecute: stmt_guid=8
+2017-09-22 22:25:04.116 (0x700007c91000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-09-22 22:25:04.116 (0x700007c91000): PackageDatabase: package database to "/Users/Markos/Library/Caches/com.tableau.caching/TemporaryExtracts/7115adfa64aa1e6823aed04cf15ec13d5475f0d07bbafeeb208f847e8a8a927c.ttde"
+2017-09-22 22:25:04.184 (0x700007c91000): PackageDatabase: finished
+2017-09-22 22:25:04.184 (0x700007c91000): Session3: StatementExecute: OK, Elapsed time:0.069s, Compilation time:0.000s, Execution time:0.069s
+2017-09-22 22:25:04.185 (0x700008094000): Session3: StatementClose: stmt_guid=8
+2017-09-22 22:25:04.188 (0x700008497000): Session3: QueryExecute:
+2017-09-22 22:25:04.188 (0x700008497000): (database null)
+2017-09-22 22:25:04.193 (0x700008497000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-09-22 22:25:04.193 (0x700008497000): Session3: QueryExecute: OK, Elapsed time:0.005s, Compilation time:0.000s, Execution time:0.005s
+2017-09-22 22:25:04.193 (0x700009ca9000): tdeserver: close session3, connection=::1:65342->::1:65345
+2017-09-22 22:25:04.194 (0x700009ca9000): tdeserver: open session5, connection=::1:65342->::1:65345
+2017-09-22 22:25:04.195 (0x700009ca9000): tdeserver: open session6, connection=::1:65342->::1:65345
+2017-09-22 22:25:04.196 (0x70000889a000): Session5: StatementOpen: stmt_guid=1
+2017-09-22 22:25:04.196 (0x700008c9d000): Session5: StatementPrepare: stmt_guid=1
+2017-09-22 22:25:04.196 (0x700008c9d000): (drop database "/var/folders/zr/_cs4zqls64d2j3g4x862ft6h0000gn/T/tableau-temp/#TableauTemp_04ix7y01fid15y181spk91b8ep4h.tde" cascade ifexists)
+2017-09-22 22:25:04.196 (0x700008c9d000): Session5: StatementPrepare: OK stmt_guid=1
+2017-09-22 22:25:04.197 (0x7000090a0000): Session5: StatementExecute: stmt_guid=1
+2017-09-22 22:25:04.197 (0x7000090a0000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-09-22 22:25:04.198 (0x7000090a0000): Session5: StatementExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-09-22 22:25:04.198 (0x70000748b000): Session5: StatementClose: stmt_guid=1
+2017-09-22 22:25:04.198 (0x70000788e000): Session5: QueryExecute:
+2017-09-22 22:25:04.198 (0x70000788e000): (database null)
+2017-09-22 22:25:04.198 (0x70000788e000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-09-22 22:25:04.198 (0x70000788e000): Session5: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-09-22 22:25:04.198 (0x700009ca9000): tdeserver: close session5, connection=::1:65342->::1:65345
+2017-09-22 22:25:04.198 (0x700007c91000): Session6: QueryExecute:
+2017-09-22 22:25:04.198 (0x700007c91000): (database null)
+2017-09-22 22:25:04.198 (0x700007c91000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-09-22 22:25:04.198 (0x700007c91000): Session6: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-09-22 22:25:04.198 (0x700009ca9000): tdeserver: close session6, connection=::1:65342->::1:65345
+2017-09-22 22:25:04.199 (0x700008094000): Session4: QueryExecute:
+2017-09-22 22:25:04.199 (0x700008094000): (database null)
+2017-09-22 22:25:04.199 (0x700008094000): Compiling query with Memory Budget=17179869184 MemoryAvailable=17179869184
+2017-09-22 22:25:04.199 (0x700008094000): Session4: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-09-22 22:25:04.199 (0x700009ca9000): tdeserver: close session4, connection=::1:65342->::1:65345
+2017-09-22 22:25:04.200 (0x700009ca9000): tdeserver: disconnected connection=::1:65342->::1:65345: IPC_SocketConnection::Read(len=16, connection=::1:65342->::1:65345): The connection was closed by the peer in IPC_Socket::Recv(len=16)
+2017-09-22 22:25:04.200 (0x700009ca9000): tdeserver: closing connection=::1:65342->::1:65345
+2017-09-22 22:25:04.426 (0x7fffa9d853c0): tdeserver: exit (0)
